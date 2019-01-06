@@ -1,5 +1,4 @@
 klynt.miniPlayerData = {
-    "launchAppWording": "Then Launch Project",
     "thanksForWatchingWording": "Thanks for watching!",
     "resumePlaybackWording": "Resume playback?",
     "fullscreenInfoWording": "This program will launch in fullscreen",
@@ -8,8 +7,9 @@ klynt.miniPlayerData = {
     "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
     "noWording": "No",
     "analyticsKey": "",
+    "launchAppWording": "Then Launch Project",
     "redirectToMobileApp": "never",
-    "url": "",
     "downloadAppWording": "Download App",
+    "url": "",
     "description": ""
 }
