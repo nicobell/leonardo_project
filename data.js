@@ -71,29 +71,29 @@ klynt.data = {
     },
     "aliases": {
         "aliasToId": {
-            "Taranto": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8",
-            "Chora": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
-            "La_città_greca": "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843",
-            "Vita_e_opere": "B946A618-7142-8493-4B0C-8E7B9BF5E592",
-            "La_città_Romana": "60B0D847-A8A5-0E06-2FC6-8528EB355993",
-            "Leo_in_FVG": "FD372935-188B-DF55-6453-8E7BABE1731A",
-            "La_città_Contemporanea": "94872949-87C3-5F06-EB6E-8528F167F49A",
-            "la_figura_di_leonardo": "87E70905-ECC5-BBBA-661E-8D3EE0E023A2",
-            "La_città_Rinascimentale": "8A933EC8-9D7C-37BD-B8B1-852972D9DD65",
-            "Asty": "0470597F-4614-D4C0-3022-9D128E895EF9",
+            "L'antichità": "49EB144C-7E01-49DF-CFF0-8528A28BD875",
             "video_polis": "C62F4C80-1142-70B2-6C1E-9CE787C67A54",
-            "Atene": "10BC9413-5F6B-F19E-41B7-9D129AA08A57",
+            "Bio_video": "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F",
+            "La_città_Contemporanea": "94872949-87C3-5F06-EB6E-8528F167F49A",
+            "Chora": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
+            "Scelta_percorso": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
             "Megara_Iblea": "075E7926-3D3B-AB36-733D-8E7985CE9FB6",
+            "Asty": "0470597F-4614-D4C0-3022-9D128E895EF9",
+            "Vita_e_opere": "B946A618-7142-8493-4B0C-8E7B9BF5E592",
+            "Taranto": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8",
+            "Atene": "10BC9413-5F6B-F19E-41B7-9D129AA08A57",
+            "la_figura_di_leonardo": "87E70905-ECC5-BBBA-661E-8D3EE0E023A2",
             "I_modelli_della_Storia": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
             "Ippodamo": "A1664808-B10A-FDF1-39F2-8E7998F0FC7C",
-            "Acropoli": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
+            "Leo_in_FVG": "FD372935-188B-DF55-6453-8E7BABE1731A",
             "Leonardo_e_la_città": "60272FE2-9E3C-EF70-0A63-83E95AFF1F99",
-            "L'antichità": "49EB144C-7E01-49DF-CFF0-8528A28BD875",
-            "Bio_video": "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F",
-            "La_città_ideale": "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1",
-            "Napoli": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7",
+            "Acropoli": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
             "Lavoro_dei_flussi": "6927CCB6-34B8-0732-CA5D-8E7E1A9F5FFF",
-            "Scelta_percorso": "F2EE2068-9907-BC2B-2375-83DAB62365F0"
+            "La_città_greca": "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843",
+            "La_città_Rinascimentale": "8A933EC8-9D7C-37BD-B8B1-852972D9DD65",
+            "La_città_ideale": "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1",
+            "La_città_Romana": "60B0D847-A8A5-0E06-2FC6-8528EB355993",
+            "Napoli": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7"
         },
         "idToAlias": {
             "0470597F-4614-D4C0-3022-9D128E895EF9": "Asty",
@@ -268,6 +268,52 @@ klynt.data = {
                     },
                     "id": "1FBC6CDE-1BCE-D8CB-5004-1F46C7CAB8CF",
                     "databegin": "00:09.27"
+                },
+                {
+                    "centerY": "298.67",
+                    "dataend": "00:23.78",
+                    "type": "txt-Title-1",
+                    "text": "<p><span style=\"color: #000000; background-color: #ffffff; font-size: 25pt; font-family: 'Droid Sans';\"><strong>Ferrara</strong>, Emilia-Romagna, Italia</span></p>",
+                    "name": "Text 8",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:03.58",
+                    "centerX": "374.01",
+                    "width": "487.24",
+                    "height": "58.10",
+                    "id": "C496FC66-A5EA-6942-803E-230B52D22E5B",
+                    "databegin": "00:20.20"
+                },
+                {
+                    "centerY": "304.11",
+                    "dataend": "00:32.18",
+                    "type": "txt-Title-1",
+                    "text": "<p><span style=\"color: #000000; background-color: #ffffff; font-size: 25pt; font-family: 'Droid Sans';\"><strong>Palmanova</strong>, Friuli Venezia-Giulia, Italia</span></p>",
+                    "name": "Text 8",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:05.70",
+                    "centerX": "321.36",
+                    "width": "621.59",
+                    "height": "58.10",
+                    "id": "F8658251-9CFC-9710-9151-230C6D2DF582",
+                    "databegin": "00:26.48"
                 },
                 {
                     "centerY": "-280.72",
@@ -4749,6 +4795,7 @@ klynt.data = {
             "title": "La città Romana",
             "images": [
                 {
+                    "centerY": "5.66",
                     "verticalAlign": "middle",
                     "dataend": "00:29.34",
                     "src": "Medias/Photos/torino.jpg",
@@ -4759,19 +4806,18 @@ klynt.data = {
                         "type": "fade",
                         "duration": "1"
                     },
-                    "height": "489.44",
-                    "top": "-30.10",
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1431,
                     "transitionOut": {
                         "type": "fade",
                         "duration": "1"
                     },
-                    "scales": false,
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1431,
+                    "scales": true,
                     "duration": "00:10.46",
-                    "width": "503.87",
-                    "left": "125.02",
+                    "centerX": "1.40",
+                    "width": "914.83",
+                    "height": "888.63",
                     "style": {
                         "rotation": -0.2500494964600147
                     },
@@ -4785,37 +4831,37 @@ klynt.data = {
             "backgroundColor": "rgba(0,0,0,0.75)",
             "videos": [
                 {
+                    "centerY": "1.57",
                     "verticalAlign": "middle",
                     "dataend": "01:08.47",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/Citta_Romana___Made_with_Clipchamp.mp4"
-                        }
-                    ],
                     "zIndex": 0,
                     "frameRate": null,
                     "player": true,
-                    "syncMaster": true,
+                    "mediaWidth": 853,
                     "volume": 1,
-                    "scales": false,
+                    "scales": true,
                     "name": "Citta_Romana___Made_with_Clipchamp.mp4",
                     "autoplay": true,
                     "loop": false,
-                    "height": "389.13",
+                    "height": "706.51",
                     "id": "77254752-8927-DF6E-BC3D-22C806F56CFD",
-                    "width": "692.12",
+                    "width": "1256.62",
                     "poster": "Medias/Posters/Citta_Romana___Made_with_Clipchamp.mp4.jpg",
                     "mediaHeight": 480,
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
                     },
-                    "top": "17.80",
+                    "syncMaster": true,
                     "scaleMode": "zoom",
                     "duration": "01:08.47",
-                    "mediaWidth": 853,
-                    "left": "33.05",
+                    "centerX": "5.31",
+                    "src": [
+                        {
+                            "type": "video/mp4",
+                            "src": "Medias/Videos/Citta_Romana___Made_with_Clipchamp.mp4"
+                        }
+                    ],
                     "horizontalAlign": "center",
                     "databegin": "00:00.00"
                 }
@@ -6799,7 +6845,7 @@ klynt.data = {
         "mapsKey": "",
         "title": "leonardo_e_la_città",
         "author": "nicobell",
-        "modificationDate": 1546775852888,
+        "modificationDate": 1546776394383,
         "overlayCloseButtonRight": 16,
         "overlayCloseButtonTop": 16,
         "primaryColor": 3355443,
