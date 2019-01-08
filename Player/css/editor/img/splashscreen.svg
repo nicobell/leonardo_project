@@ -11,7 +11,7 @@
     <defs>
         <style type="text/css"><![CDATA[
             path {
-                fill: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+                fill: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
             }
         ]]></style>
     </defs>

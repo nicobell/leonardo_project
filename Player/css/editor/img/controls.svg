@@ -10,7 +10,7 @@
 	.st4{opacity:0.4;}
 	.st5{opacity:0.4;enable-background:new    ;}
 	path, rect, text {
-		fill: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+		fill: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 	}
 </style>
 <path class="st0" d="M0,0"/>
