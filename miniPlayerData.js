@@ -1,15 +1,1 @@
-klynt.miniPlayerData = {
-    "downloadAppWording": "Download App",
-    "thanksForWatchingWording": "Thanks for watching!",
-    "launchAppWording": "Then Launch Project",
-    "resumePlaybackWording": "Resume playback?",
-    "fullscreenInfoWording": "This program will launch in fullscreen",
-    "yesWording": "Yes",
-    "title": "leonardo_e_la_città",
-    "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
-    "noWording": "No",
-    "analyticsKey": "",
-    "redirectToMobileApp": "never",
-    "url": "",
-    "description": ""
-}
+klynt.miniPlayerData = {"fullscreenInfoWording":"This program will launch in fullscreen","thanksForWatchingWording":"Thanks for watching!","analyticsKey":"","title":"leonardo_e_la_città","yesWording":"Yes","redirectToMobileApp":"never","noWording":"No","resumePlaybackWording":"Resume playback?","launchAppWording":"Then Launch Project","thumbnail":"Medias/Thumbnails/leonardo_sfondo.jpg.jpg","downloadAppWording":"Download App","url":"","description":""}
