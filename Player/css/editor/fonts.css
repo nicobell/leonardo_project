@@ -203,6 +203,7 @@
 @font-face {
 	font-family: Crimson Text;
 	font-weight: roman;
+<<<<<<< Updated upstream
 	font-style: normal;
 	src: url('fonts/CrimsonText-Roman.eot');
 	src: url('fonts/CrimsonText-Roman.eot?#iefix') format('embedded-opentype'),
@@ -212,10 +213,12 @@
 @font-face {
 	font-family: Lato;
 	font-weight: bold;
+=======
+>>>>>>> Stashed changes
 	font-style: normal;
-	src: url('fonts/Lato-Bold.eot');
-	src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Lato-Bold.ttf') format('truetype');
+	src: url('fonts/CrimsonText-Roman.eot');
+	src: url('fonts/CrimsonText-Roman.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/CrimsonText-Roman.ttf') format('truetype');
 }
 
 @font-face {
@@ -225,6 +228,15 @@
 	src: url('fonts/Lato-Italic.eot');
 	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: bold;
+	font-style: normal;
+	src: url('fonts/Lato-Bold.eot');
+	src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Lato-Bold.ttf') format('truetype');
 }
 
 @font-face {
