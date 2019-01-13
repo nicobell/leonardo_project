@@ -54,1090 +54,257 @@ klynt.data = {
         "remoteVideosAPIURL": "http://api.klynt.net/video/klynt-video-api.php",
         "enableScrollNavigation": true
     },
-    "aliases": {
-        "aliasToId": {
-            "gioconda": "40B5B941-DE22-8A52-1867-3D85F07EE17A",
-            "Atene": "10BC9413-5F6B-F19E-41B7-9D129AA08A57",
-            "Scelta_percorso": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
-            "Leonardo_e_la_città": "60272FE2-9E3C-EF70-0A63-83E95AFF1F99",
-            "L'antichità": "49EB144C-7E01-49DF-CFF0-8528A28BD875",
-            "La_città_Contemporanea": "94872949-87C3-5F06-EB6E-8528F167F49A",
-            "gesù": "64A33728-D7F8-85AA-4409-3D8D15AB69B7",
-            "Asty": "0470597F-4614-D4C0-3022-9D128E895EF9",
-            "Leo_in_FVG": "FD372935-188B-DF55-6453-8E7BABE1731A",
-            "ermellino": "72206E33-DB46-10B3-E638-3D86269E8ECE",
-            "cena": "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2",
-            "La_città_Romana": "60B0D847-A8A5-0E06-2FC6-8528EB355993",
-            "Taranto": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8",
-            "Chora": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
-            "Ippodamo": "A1664808-B10A-FDF1-39F2-8E7998F0FC7C",
-            "macchina_volante": "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD",
-            "Megara_Iblea": "075E7926-3D3B-AB36-733D-8E7985CE9FB6",
-            "paracadute": "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E",
-            "La_città_greca": "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843",
-            "Bio_video": "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F",
-            "La_città_Rinascimentale": "8A933EC8-9D7C-37BD-B8B1-852972D9DD65",
-            "la_figura_di_leonardo": "87E70905-ECC5-BBBA-661E-8D3EE0E023A2",
-            "Palmanova_google": "74C4CB16-62F4-4795-C4A4-37507601009F",
-            "I_modelli_della_Storia": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
-            "La_città_ideale": "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1",
-            "calcolatrice": "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC",
-            "Acropoli": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
-            "Lavoro_dei_flussi": "6927CCB6-34B8-0732-CA5D-8E7E1A9F5FFF",
-            "Vita_e_opere": "B946A618-7142-8493-4B0C-8E7B9BF5E592",
-            "Napoli": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7",
-            "carro_armato": "53175633-8263-8F37-6F82-3D9A47845F27",
-            "video_polis": "C62F4C80-1142-70B2-6C1E-9CE787C67A54"
-        },
-        "idToAlias": {
-            "6927CCB6-34B8-0732-CA5D-8E7E1A9F5FFF": "Lavoro_dei_flussi",
-            "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC": "calcolatrice",
-            "B946A618-7142-8493-4B0C-8E7B9BF5E592": "Vita_e_opere",
-            "10BC9413-5F6B-F19E-41B7-9D129AA08A57": "Atene",
-            "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF": "I_modelli_della_Storia",
-            "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD": "macchina_volante",
-            "EE1F9369-3E65-60AF-EC58-9D1293E592F7": "Chora",
-            "075E7926-3D3B-AB36-733D-8E7985CE9FB6": "Megara_Iblea",
-            "53175633-8263-8F37-6F82-3D9A47845F27": "carro_armato",
-            "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1": "La_città_ideale",
-            "87E70905-ECC5-BBBA-661E-8D3EE0E023A2": "la_figura_di_leonardo",
-            "74C4CB16-62F4-4795-C4A4-37507601009F": "Palmanova_google",
-            "60272FE2-9E3C-EF70-0A63-83E95AFF1F99": "Leonardo_e_la_città",
-            "550DB8E1-71A8-C3EF-E90E-8E79954C96D7": "Napoli",
-            "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2": "cena",
-            "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8": "Taranto",
-            "94872949-87C3-5F06-EB6E-8528F167F49A": "La_città_Contemporanea",
-            "0470597F-4614-D4C0-3022-9D128E895EF9": "Asty",
-            "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E": "paracadute",
-            "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843": "La_città_greca",
-            "40B5B941-DE22-8A52-1867-3D85F07EE17A": "gioconda",
-            "49EB144C-7E01-49DF-CFF0-8528A28BD875": "L'antichità",
-            "72206E33-DB46-10B3-E638-3D86269E8ECE": "ermellino",
-            "F2EE2068-9907-BC2B-2375-83DAB62365F0": "Scelta_percorso",
-            "64A33728-D7F8-85AA-4409-3D8D15AB69B7": "gesù",
-            "FD372935-188B-DF55-6453-8E7BABE1731A": "Leo_in_FVG",
-            "8A933EC8-9D7C-37BD-B8B1-852972D9DD65": "La_città_Rinascimentale",
-            "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F": "Bio_video",
-            "60B0D847-A8A5-0E06-2FC6-8528EB355993": "La_città_Romana",
-            "A1664808-B10A-FDF1-39F2-8E7998F0FC7C": "Ippodamo",
-            "9B20A371-8B9D-51D7-7831-9D1287E1B1FD": "Acropoli",
-            "C62F4C80-1142-70B2-6C1E-9CE787C67A54": "video_polis"
-        }
-    },
     "mainSequence": "60272FE2-9E3C-EF70-0A63-83E95AFF1F99",
     "miniPlayer": {
         "thanksForWatchingWording": "Thanks for watching!",
-        "resumePlaybackWording": "Resume playback?",
+        "analyticsKey": "",
         "fullscreenInfoWording": "This program will launch in fullscreen",
         "yesWording": "Yes",
         "title": "leonardo_e_la_città",
         "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
         "noWording": "No",
-        "analyticsKey": "",
-        "launchAppWording": "Then Launch Project",
+        "resumePlaybackWording": "Resume playback?",
+        "redirectToMobileApp": "never",
         "downloadAppWording": "Download App",
         "url": "",
-        "redirectToMobileApp": "never",
+        "launchAppWording": "Then Launch Project",
         "description": ""
     },
     "watermark": {
-        "displayOnStartSequence": true,
         "enabled": false,
         "position": "top-left",
         "image": "Player/css/editor/img/watermark.png",
+        "displayOnStartSequence": true,
         "action": {
             "type": "openSequence",
             "target": "null"
         }
     },
     "sequences": {
-        "6927CCB6-34B8-0732-CA5D-8E7E1A9F5FFF": {
+        "8A933EC8-9D7C-37BD-B8B1-852972D9DD65": {
             "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/I_flussi_di_leonardo.mp4.jpg",
             "hideThumbnailInMindmap": false,
             "hideTitleInMindmap": false,
-            "title": "Lavoro dei flussi",
-            "images": [
-                {
-                    "centerY": "97.22",
-                    "verticalAlign": "middle",
-                    "dataend": "00:21.24",
-                    "src": "Medias/Photos/freccia_azzurra.png",
-                    "zIndex": 4,
-                    "id": "617C7D3B-A0CB-EFF5-D105-1827F8339A2A",
-                    "mediaHeight": 1131,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 295,
-                    "scales": true,
-                    "duration": "00:05.49",
-                    "centerX": "473.05",
-                    "width": "44.03",
-                    "height": "168.76",
-                    "style": {
-                        "rotation": -76.73362979659112
-                    },
-                    "name": "freccia_azzurra.png",
-                    "databegin": "00:15.75"
-                },
-                {
-                    "centerY": "155.06",
-                    "verticalAlign": "middle",
-                    "dataend": "00:28.12",
-                    "src": "Medias/Photos/freccia_azzurra.png",
-                    "zIndex": 4,
-                    "id": "E9A15A60-BECA-EFA1-9839-186433930DBC",
-                    "mediaHeight": 1131,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 295,
-                    "scales": true,
-                    "duration": "00:05.30",
-                    "centerX": "-446.76",
-                    "width": "57.02",
-                    "height": "218.68",
-                    "style": {
-                        "rotation": -59.3384067949341
-                    },
-                    "name": "freccia_azzurra.png",
-                    "databegin": "00:22.82"
-                },
-                {
-                    "centerY": "-45.71",
-                    "verticalAlign": "middle",
-                    "dataend": "00:21.24",
-                    "src": "Medias/Photos/freccia_rossa.png",
-                    "zIndex": 6,
-                    "id": "08A85D7D-9045-56D6-FCE5-1828018118C8",
-                    "mediaHeight": 1131,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 295,
-                    "scales": true,
-                    "duration": "00:04.36",
-                    "centerX": "79.15",
-                    "width": "53.91",
-                    "height": "206.72",
-                    "style": {
-                        "rotation": -80.47938759380096
-                    },
-                    "name": "freccia_rossa.png",
-                    "databegin": "00:16.88"
-                },
-                {
-                    "centerY": "-151.26",
-                    "verticalAlign": "middle",
-                    "dataend": "00:28.12",
-                    "src": "Medias/Photos/freccia_rossa.png",
-                    "zIndex": 6,
-                    "id": "2DD330ED-86CB-C95E-6430-18644D7080CE",
-                    "mediaHeight": 1131,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 295,
-                    "scales": true,
-                    "duration": "00:04.36",
-                    "centerX": "129.11",
-                    "width": "64.79",
-                    "height": "248.39",
-                    "style": {
-                        "rotation": 0.3292769870895955
-                    },
-                    "name": "freccia_rossa.png",
-                    "databegin": "00:23.76"
-                },
-                {
-                    "centerY": "206.17",
-                    "verticalAlign": "middle",
-                    "dataend": "00:21.24",
-                    "src": "Medias/Photos/freccia_gialla.png",
-                    "zIndex": 8,
-                    "id": "A66CCFE4-2407-F354-F64F-1827FC641D3F",
-                    "mediaHeight": 1131,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 295,
-                    "scales": true,
-                    "duration": "00:03.16",
-                    "centerX": "-146.13",
-                    "width": "67.54",
-                    "height": "258.96",
-                    "style": {
-                        "rotation": 60.41617580555688
-                    },
-                    "name": "freccia_gialla.png",
-                    "databegin": "00:18.08"
-                },
-                {
-                    "centerY": "221.91",
-                    "verticalAlign": "middle",
-                    "dataend": "00:28.12",
-                    "src": "Medias/Photos/freccia_gialla.png",
-                    "zIndex": 8,
-                    "id": "44672ADA-71B7-E8E0-AC43-18645BE96C63",
-                    "mediaHeight": 1131,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 295,
-                    "scales": true,
-                    "duration": "00:03.27",
-                    "centerX": "-5.53",
-                    "width": "61.38",
-                    "height": "235.36",
-                    "style": {
-                        "rotation": 76.08774134351519
-                    },
-                    "name": "freccia_gialla.png",
-                    "databegin": "00:24.85"
-                }
-            ],
-            "x": 357.6833333333334,
-            "size": "small",
-            "y": 613.9,
+            "title": "La città Rinascimentale",
+            "color": "rgba(0,0,0,1)",
+            "x": 982.05,
+            "size": "medium",
+            "y": 380.3,
             "backgroundColor": "rgba(0,0,0,0.75)",
             "videos": [
                 {
-                    "centerY": "-2.91",
+                    "centerY": "227.49",
                     "verticalAlign": "middle",
-                    "dataend": "01:39.83",
-                    "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "player": true,
-                    "duration": "01:39.83",
-                    "mediaWidth": 853,
+                    "dataend": "00:18.09",
+                    "zIndex": 1,
+                    "frameRate": 0,
+                    "player": false,
+                    "mediaWidth": 1592,
                     "volume": 1,
                     "scales": true,
-                    "mediaHeight": 480,
+                    "name": "Palmanova.mp4",
                     "autoplay": true,
-                    "loop": false,
-                    "height": "613.90",
-                    "id": "C0B58B88-F960-A324-78A0-152A8B3CCF6B",
-                    "width": "1092.18",
-                    "syncMaster": true,
-                    "name": "I_flussi_di_leonardo.mp4",
+                    "loop": true,
+                    "height": "92.54",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "CBA27A11-E42A-CEA7-F5BC-375E95A8139E",
+                        "targetSequence": "74C4CB16-62F4-4795-C4A4-37507601009F",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(0,0,0,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "id": "30561B78-C3AA-B6D4-0F66-37587BC5BC23",
+                    "width": "164.60",
+                    "mediaHeight": 904,
                     "transitionIn": {
                         "type": "fade",
-                        "duration": "1"
+                        "duration": "0.5"
                     },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "0.5"
+                    },
+                    "poster": "Medias/Posters/Palmanova.mp4.jpg",
                     "scaleMode": "zoom",
-                    "poster": "Medias/Posters/I_flussi_di_leonardo.mp4.jpg",
-                    "centerX": "-3.63",
+                    "duration": "00:02.96",
+                    "centerX": "357.73",
                     "src": [
                         {
                             "type": "video/mp4",
-                            "src": "Medias/Videos/I_flussi_di_leonardo.mp4"
+                            "src": "Medias/Videos/Palmanova.mp4"
                         }
                     ],
+                    "horizontalAlign": "center",
+                    "databegin": "00:15.13"
+                }
+            ],
+            "duration": 57.733,
+            "images": [
+                {
+                    "centerY": "227.21",
+                    "verticalAlign": "middle",
+                    "dataend": "00:18.09",
+                    "src": "Medias/Photos/play-button.png",
+                    "zIndex": 2,
+                    "id": "AF4B1778-2B55-AA16-16B2-375A1B12346A",
+                    "mediaHeight": 1534,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "0.5"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "0.5"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "74C4CB16-62F4-4795-C4A4-37507601009F",
+                        "linkType": "linkToSequence",
+                        "transition": "pop",
+                        "id": "122036EB-7886-5A2B-F92B-375E206B3537",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1534,
+                    "scales": true,
+                    "duration": "00:02.96",
+                    "centerX": "357.19",
+                    "width": "50.00",
+                    "height": "50.00",
+                    "style": {
+                        "opacity": 0.7
+                    },
+                    "name": "play-button.png",
+                    "databegin": "00:15.13"
+                }
+            ],
+            "texts": [
+                {
+                    "centerY": "289.13",
+                    "dataend": "00:18.09",
+                    "type": "txt-Title-2",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 25pt; color: #000000; font-family: 'Droid Sans';\">Un esempio spesso citato &egrave; <strong>Palmanova</strong></span></p>",
+                    "name": "palmanova",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 0,
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "9F10F71B-531E-7CA9-CAB0-3753D48D3B9E",
+                        "targetSequence": "74C4CB16-62F4-4795-C4A4-37507601009F",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(0,0,0,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "scales": true,
+                    "duration": "00:02.96",
+                    "centerX": "23.42",
+                    "width": "616.77",
+                    "height": "50.69",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.5)"
+                    },
+                    "id": "33FBE590-690D-4087-9928-1F4869E16E35",
+                    "databegin": "00:15.13"
+                }
+            ],
+            "id": "8A933EC8-9D7C-37BD-B8B1-852972D9DD65"
+        },
+        "0470597F-4614-D4C0-3022-9D128E895EF9": {
+            "hideInMindmap": false,
+            "title": "Asty",
+            "y": 47.55,
+            "hideThumbnailInMindmap": false,
+            "id": "0470597F-4614-D4C0-3022-9D128E895EF9",
+            "hideTitleInMindmap": false,
+            "x": 1381.0333333333333,
+            "size": "small",
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)"
+        },
+        "74C4CB16-62F4-4795-C4A4-37507601009F": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Palmanova.mp4.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Palmanova google",
+            "x": 1153.5333333333333,
+            "size": "small",
+            "y": 378.1,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "videos": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:40.75",
+                    "zIndex": 0,
                     "frameRate": 0,
+                    "player": false,
+                    "mediaWidth": 1592,
+                    "volume": 1,
+                    "scales": true,
+                    "name": "Palmanova.mp4",
+                    "autoplay": true,
+                    "loop": true,
+                    "height": "615.00",
+                    "id": "CE67CEE5-88A4-AB55-A367-3751726695BE",
+                    "width": "1083.00",
+                    "syncMaster": true,
+                    "mediaHeight": 904,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "poster": "Medias/Posters/Palmanova.mp4.jpg",
+                    "scaleMode": "zoom",
+                    "duration": "00:40.75",
+                    "centerX": "0.00",
+                    "src": [
+                        {
+                            "type": "video/mp4",
+                            "src": "Medias/Videos/Palmanova.mp4"
+                        }
+                    ],
+                    "horizontalAlign": "center",
                     "databegin": "00:00.00"
                 }
             ],
-            "duration": 99.833,
+            "duration": 40.751,
             "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "-224.76",
-                    "dataend": "00:04.11",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #ffffff;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\">I <strong>disegni</strong> di Leonardo</span></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #ffffff;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\">permettono di ricostruire</span></span></p>\n<p style=\"text-align: right;\"><span style=\"color: #ffffff;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\">un <strong>modello di citt&agrave; nuova</strong></span></span></p>",
-                    "name": "leonardo città",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:03.00",
-                    "centerX": "238.50",
-                    "width": "574.00",
-                    "height": "157.99",
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.5)"
-                    },
-                    "id": "508F019D-FCB9-01E2-220C-152CB71E7839",
-                    "databegin": "00:01.11"
-                },
-                {
-                    "centerY": "211.15",
-                    "dataend": "00:09.04",
-                    "type": "txt-Title-1",
-                    "text": "<p style=\"text-align: left;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span style=\"font-family: 'Droid Sans';\">Con sorprendenti <strong>previsioni</strong></span><br /></span></p>\n<p style=\"text-align: center;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span style=\"font-family: 'Droid Sans';\">sulla <strong>struttura</strong> e sull'<strong>organizzazione</strong></span></span></p>\n<p style=\"text-align: right;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span style=\"font-family: 'Droid Sans';\">della nuova&nbsp;<strong>Citt&agrave; Ideale</strong></span></span></p>",
-                    "name": "flussi",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:03.64",
-                    "centerX": "-190.47",
-                    "width": "696.71",
-                    "height": "162.46",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "536E34C8-A6EC-DA45-16EB-1534A4BA8D7B",
-                    "databegin": "00:05.40"
-                },
-                {
-                    "centerY": "272.15",
-                    "dataend": "00:14.76",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span style=\"color: #000000; background-color: #ffffff;\"><strong>Chicago</strong>, Illinois, USA</span><br /></span></p>",
-                    "name": "chicago",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:04.10",
-                    "centerX": "387.60",
-                    "width": "346.94",
-                    "height": "54.37",
-                    "id": "F390DF02-AB61-7BF9-904A-181665AA3ADE",
-                    "databegin": "00:10.66"
-                },
-                {
-                    "centerY": "183.98",
-                    "dataend": "00:28.12",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #00ffff;\"><strong><span style=\"font-size: 25pt; font-family: 'Droid Sans';\">Via dell'acqua</span></strong></span></p>",
-                    "name": "Text 9",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:05.30",
-                    "centerX": "-348.90",
-                    "width": "319.84",
-                    "height": "75.81",
-                    "style": {
-                        "rotation": 31.134018018598148
-                    },
-                    "id": "C0F30CB9-DAB6-BE90-4B20-18683504FEB4",
-                    "databegin": "00:22.82"
-                },
-                {
-                    "centerY": "80.58",
-                    "dataend": "00:21.24",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #00ffff; font-size: 15pt;\"><strong><span style=\"font-family: 'Droid Sans';\">Via dell'acqua</span></strong></span></p>",
-                    "name": "via acqua",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:05.49",
-                    "centerX": "528.61",
-                    "width": "180.99",
-                    "height": "61.00",
-                    "style": {
-                        "rotation": 12.756958727838112
-                    },
-                    "id": "E7C4B013-5133-96D0-4D77-182E3E0D1AEC",
-                    "databegin": "00:15.75"
-                },
-                {
-                    "centerY": "-215.33",
-                    "dataend": "00:15.47",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">Leonardo definisce diversi <strong>FLUSSI</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">che simboleggiano le <strong>vie di movimento</strong></span></p>\n<p style=\"text-align: right;\"><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">e le <strong>funzionalit&agrave; degli spazi</strong></span></p>",
-                    "name": "Text 15",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 7,
-                    "scales": true,
-                    "duration": "00:05.10",
-                    "centerX": "-174.03",
-                    "width": "736.16",
-                    "height": "177.98",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "55C264FE-71FE-DEFE-1F1B-18BCC5F4E4FB",
-                    "databegin": "00:10.37"
-                },
-                {
-                    "centerY": "-33.94",
-                    "dataend": "00:21.24",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; color: #ff0000; font-size: 25pt;\"><strong>Via delle persone</strong></span></p>",
-                    "name": "via persone",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 7,
-                    "scales": true,
-                    "duration": "00:04.36",
-                    "centerX": "203.44",
-                    "width": "372.19",
-                    "height": "126.34",
-                    "style": {
-                        "rotation": 8.461141817090411
-                    },
-                    "id": "C75185A7-DA2B-AA18-B608-18328256080B",
-                    "databegin": "00:16.88"
-                },
-                {
-                    "centerY": "-116.26",
-                    "dataend": "00:28.12",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #ff0000; font-size: 30pt;\"><strong><span style=\"font-family: 'Droid Sans';\">Via delle persone</span></strong></span></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 7,
-                    "scales": true,
-                    "duration": "00:04.36",
-                    "centerX": "92.53",
-                    "width": "435.66",
-                    "height": "56.85",
-                    "style": {
-                        "rotation": -89.23958939751293
-                    },
-                    "id": "F900DFA1-7950-9A89-322D-1868276B90AA",
-                    "databegin": "00:23.76"
-                },
-                {
-                    "centerY": "-245.61",
-                    "dataend": "01:34.00",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #ffffff; font-family: 'Droid Sans'; font-size: 25pt;\">Leonardo, <strong>urbanista rinascimentale</strong> ...</span></p>",
-                    "name": "Text 29",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:03.96",
-                    "centerX": "-223.62",
-                    "width": "621.82",
-                    "height": "60.49",
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.5)"
-                    },
-                    "id": "85A4EFB7-A1B7-5C20-7AE9-1D7C38748373",
-                    "databegin": "01:30.04"
-                },
-                {
-                    "centerY": "68.44",
-                    "dataend": "01:28.56",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span style=\"font-family: 'Droid Sans';\"><strong>Verticalit&agrave;</strong> e <strong>Orizzontalit&agrave;</strong></span></span></p>\n<p style=\"text-align: center;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span style=\"font-family: 'Droid Sans';\">si incrociano a pi&ugrave; <strong>altezze</strong></span></span></p>\n<p style=\"text-align: right;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span style=\"font-family: 'Droid Sans';\"><span class=\"Apple-style-span\" style=\"line-height: 57px;\">ed ogni altezza avr&agrave; i suoi spazi funzionali</span></span></span></p>",
-                    "name": "Text 25",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:07.55",
-                    "centerX": "0.00",
-                    "width": "1033.64",
-                    "height": "164.25",
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.5)"
-                    },
-                    "id": "2D033C78-8B2B-5725-CF16-192676611BFB",
-                    "databegin": "01:21.01"
-                },
-                {
-                    "centerY": "-240.11",
-                    "dataend": "01:40.83",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-size: 25pt; font-family: 'Droid Sans';\">... Progetta un citt&agrave;&nbsp;</span><span class=\"Apple-style-span\" style=\"font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">con <strong>elementi futuristici</strong></span></p>\n<p style=\"text-align: right;\"><span style=\"font-size: 25pt; font-family: 'Droid Sans';\">e <strong>flussi</strong> fuori dalla portata del <strong>suo</strong> <strong>tempo</strong></span></p>",
-                    "name": "Text 29",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:05.95",
-                    "centerX": "160.38",
-                    "width": "737.30",
-                    "height": "115.47",
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.5)"
-                    },
-                    "id": "87216D63-3706-E7DA-F56E-1D7F8D972C02",
-                    "databegin": "01:34.88"
-                },
-                {
-                    "centerY": "11.58",
-                    "dataend": "01:09.18",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">Per occupare meno spazio possibile nella <strong>pianta della citt&agrave;</strong></span></p>",
-                    "name": "Text 22",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:04.10",
-                    "centerX": "-195.82",
-                    "width": "587.25",
-                    "height": "126.34",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "DFE47AE0-107D-FC13-A216-1911CA28F721",
-                    "databegin": "01:05.08"
-                },
-                {
-                    "centerY": "283.22",
-                    "dataend": "00:37.98",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000; background-color: #ffffff;\"><strong>The Long Tomorrow </strong>-&nbsp;O'Bannon &amp; Moebius &nbsp;(<strong>1975</strong>)</span></p>",
-                    "name": "the long tomorrow",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:03.67",
-                    "centerX": "-133.69",
-                    "width": "820.80",
-                    "height": "71.60",
-                    "id": "B68F54DB-18F1-D40C-3FDE-18A2DF759976",
-                    "databegin": "00:34.31"
-                },
-                {
-                    "centerY": "279.01",
-                    "dataend": "00:33.34",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000; background-color: #ffffff;\"><strong>Akira </strong>(<strong>Tokyo</strong>)<strong>&nbsp;</strong>-&nbsp;K.&nbsp;Otomo (1988)</span></p>",
-                    "name": "akira",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:03.15",
-                    "centerX": "-246.38",
-                    "width": "599.84",
-                    "height": "71.60",
-                    "id": "D1CD54A5-0410-0936-593B-1870D144D74D",
-                    "databegin": "00:30.19"
-                },
-                {
-                    "centerY": "-203.21",
-                    "dataend": "01:03.39",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\">Che intrecciano <strong>rete viaria</strong>, <strong>edifici</strong> e <strong>canalizzazione</strong></span></p>",
-                    "name": "Text 20",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:04.34",
-                    "centerX": "-84.22",
-                    "width": "818.85",
-                    "height": "54.75",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "049180A5-0EC0-96DF-9C11-18FF6492A20F",
-                    "databegin": "00:59.05"
-                },
-                {
-                    "centerY": "68.41",
-                    "dataend": "01:18.18",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\">La <strong>Citt&agrave; del Futuro</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\">viene immaginata da diversi artisti anche nel <strong>'900</strong></span></p>\n<p style=\"text-align: right;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\">e tutte sembrano avere caratteristiche simili</span></p>",
-                    "name": "Text 25",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:07.15",
-                    "centerX": "-2.12",
-                    "width": "1033.64",
-                    "height": "164.25",
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.5)"
-                    },
-                    "id": "E398AC07-0175-105F-9CFC-191C75DA29F2",
-                    "databegin": "01:11.03"
-                },
-                {
-                    "centerY": "-214.88",
-                    "dataend": "00:51.70",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">Rispettando i canoni</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">di <strong>simmetria</strong> e <strong>proporzione</strong></span></p>\n<p style=\"text-align: right;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">per rimanere&nbsp;a <strong>misura d'uomo</strong></span></p>",
-                    "name": "Text 14",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:05.07",
-                    "centerX": "208.80",
-                    "width": "639.94",
-                    "height": "164.25",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "E67BD458-7941-F3BA-6C90-18B62614BEDD",
-                    "databegin": "00:46.63"
-                },
-                {
-                    "centerY": "279.01",
-                    "dataend": "00:51.70",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"background-color: #ffffff; color: #000000; font-family: 'Droid Sans'; font-size: 25pt;\"><strong>A.M.A. building</strong>, Madrid, Spain</span><br /><br /></p>",
-                    "name": "ama building",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:04.55",
-                    "centerX": "333.66",
-                    "width": "530.37",
-                    "height": "63.17",
-                    "id": "005ECADA-A4F8-3C03-9286-18D188AC4376",
-                    "databegin": "00:47.15"
-                },
-                {
-                    "centerY": "277.96",
-                    "dataend": "01:29.18",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #000000; font-family: 'Droid Sans'; font-size: 25pt; background-color: #ffffff;\"><strong>The Fifth Element</strong> - Luc Besson (<strong>1997</strong>)</span></p>",
-                    "name": "the fifth element",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:09.25",
-                    "centerX": "260.07",
-                    "width": "627.26",
-                    "height": "69.49",
-                    "id": "50DA587F-9061-8CFC-47A2-19199FB9FBCD",
-                    "databegin": "01:19.93"
-                },
-                {
-                    "centerY": "182.41",
-                    "dataend": "00:21.24",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #ffff00; font-size: 25pt;\"><strong><span style=\"font-family: 'Droid Sans';\">Via dei carri</span></strong></span></p>",
-                    "name": "via carri",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:03.16",
-                    "centerX": "-178.51",
-                    "width": "268.73",
-                    "height": "59.99",
-                    "style": {
-                        "rotation": -29.066934129073225
-                    },
-                    "id": "216962B6-1738-171B-C7BD-18372CFEE14E",
-                    "databegin": "00:18.08"
-                },
-                {
-                    "centerY": "212.11",
-                    "dataend": "00:45.40",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #000000; font-family: 'Droid Sans'; font-size: 25pt;\">Leonardo prevede che tutti gli <strong>edifici</strong>&nbsp;</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000; font-family: 'Droid Sans'; font-size: 25pt;\">saranno inscritti in uno <strong>spazio definito</strong>,</span></p>\n<p style=\"text-align: right;\"><span style=\"color: #000000; font-family: 'Droid Sans'; font-size: 25pt;\">pronti a compiere la loro <strong>funzione</strong></span></p>",
-                    "name": "Text 13",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:06.46",
-                    "centerX": "-151.84",
-                    "width": "772.20",
-                    "height": "157.94",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "88FA3645-AA9B-C033-6A42-18B2EA0A0C7A",
-                    "databegin": "00:38.94"
-                },
-                {
-                    "centerY": "200.02",
-                    "dataend": "00:28.12",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #ffff00;\"><strong><span style=\"font-size: 25pt; font-family: 'Droid Sans';\">Via delle macchine</span></strong></span></p>",
-                    "name": "Text 7",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:03.27",
-                    "centerX": "-67.44",
-                    "width": "347.22",
-                    "height": "56.85",
-                    "style": {
-                        "rotation": -12.632951713876444
-                    },
-                    "id": "6657D3C4-1C9C-812D-3D34-186811D6AEEC",
-                    "databegin": "00:24.85"
-                },
-                {
-                    "centerY": "-141.13",
-                    "dataend": "00:33.34",
-                    "type": "txt-Title-1",
-                    "text": "<p><span class=\"Apple-style-span\" style=\"line-height: 48px; font-size: 40px;\"><span style=\"color: #ffffff; font-size: 30pt;\"><span style=\"font-family: 'Droid Sans';\">La <strong>citt&agrave;</strong> si sviluppa&nbsp;</span></span><span style=\"font-family: 'Droid Sans';\">su pi&ugrave;&nbsp;</span><strong><span style=\"font-family: 'Droid Sans';\">LIVELLI</span></strong></span></p>",
-                    "name": "livelli",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:03.96",
-                    "centerX": "178.82",
-                    "width": "676.13",
-                    "height": "65.27",
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.5)"
-                    },
-                    "id": "CF9B3DE2-B055-F4C5-D47E-186E9594515C",
-                    "databegin": "00:29.38"
-                },
-                {
-                    "centerY": "270.59",
-                    "dataend": "01:18.95",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #000000; background-color: #ffffff; font-family: 'Droid Sans'; font-size: 25pt;\"><strong>Metropolis</strong> - Friz Lang (<strong>1927</strong>)</span></p>",
-                    "name": "metropolis 2",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:08.73",
-                    "centerX": "323.25",
-                    "width": "450.38",
-                    "height": "54.75",
-                    "id": "F5FAE283-050E-873D-286F-1918A9F5C6AF",
-                    "databegin": "01:10.22"
-                },
-                {
-                    "centerY": "270.59",
-                    "dataend": "00:57.42",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #000000; background-color: #ffffff; font-family: 'Droid Sans'; font-size: 25pt;\"><strong>Metropolis</strong> - Friz Lang (<strong>1927</strong>)</span></p>",
-                    "name": "metropolis",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:04.69",
-                    "centerX": "323.25",
-                    "width": "450.38",
-                    "height": "54.75",
-                    "id": "96CCB1EC-18DA-5E1F-ABA1-18D6E909D394",
-                    "databegin": "00:52.73"
-                },
-                {
-                    "centerY": "210.57",
-                    "dataend": "00:37.98",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #ffffff;\">Ognuno con una propria <strong>vita&nbsp;</strong></span><span class=\"Apple-style-span\" style=\"font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">e i propri <strong>spazi</strong></span></p>",
-                    "name": "Text 16",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:04.06",
-                    "centerX": "180.25",
-                    "width": "692.52",
-                    "height": "69.48",
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.5)"
-                    },
-                    "id": "4A008AA3-4A1E-D31D-4277-18CA8D5E77C8",
-                    "databegin": "00:33.92"
-                },
-                {
-                    "centerY": "268.48",
-                    "dataend": "01:34.00",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #000000; background-color: #ffffff; font-family: 'Droid Sans'; font-size: 25pt;\"><strong>Coruscant city, Star Wars</strong>&nbsp;- George Lucas (<strong>2002</strong>)</span></p>",
-                    "name": "coruscant",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:03.96",
-                    "centerX": "162.16",
-                    "width": "734.65",
-                    "height": "54.75",
-                    "id": "8BD43F69-3899-D8F2-1124-1924CAA9A548",
-                    "databegin": "01:30.04"
-                },
-                {
-                    "centerY": "-89.60",
-                    "dataend": "01:09.18",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">Gli edifici&nbsp;si sviluppano&nbsp;in <strong>verticale</strong></span></p>",
-                    "name": "Text 21",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:04.74",
-                    "centerX": "-262.16",
-                    "width": "547.22",
-                    "height": "63.17",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "DAACFB0F-FFC5-91B0-E0BF-190EC3B459A2",
-                    "databegin": "01:04.44"
-                },
-                {
-                    "centerY": "-268.48",
-                    "dataend": "01:03.39",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\">La citt&agrave; &egrave; progettata con <strong>elementi modulari</strong></span></p>",
-                    "name": "Text 19",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:05.00",
-                    "centerX": "-200.04",
-                    "width": "684.09",
-                    "height": "63.17",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "AC688993-A0F0-FAB7-BB72-18F71C97767D",
-                    "databegin": "00:58.39"
-                },
-                {
-                    "centerY": "270.59",
-                    "dataend": "01:40.83",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"color: #000000; background-color: #ffffff; font-family: 'Droid Sans'; font-size: 25pt;\"><strong>Immortal ad Vitam</strong> - Enki Bilal (<strong>2004</strong>)</span></p>",
-                    "name": "immortal ad vitam",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:05.95",
-                    "centerX": "252.70",
-                    "width": "583.04",
-                    "height": "54.75",
-                    "id": "952B009E-D3CE-A4F3-2201-192EA947DFA1",
-                    "databegin": "01:34.88"
-                }
-            ],
-            "id": "6927CCB6-34B8-0732-CA5D-8E7E1A9F5FFF"
+            "id": "74C4CB16-62F4-4795-C4A4-37507601009F"
         },
         "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC": {
             "hideInMindmap": false,
@@ -1177,6 +344,296 @@ klynt.data = {
             "duration": 30,
             "color": "rgba(0,0,0,1)",
             "id": "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC"
+        },
+        "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/wall-Recovered.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "La città ideale",
+            "images": [
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "zIndex": 0,
+                    "horizontalAlign": "center",
+                    "name": "wall-Recovered.png",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "id": "57D7C753-D319-4866-9823-8E9DE21B415A",
+                    "fitToWindow": true,
+                    "mediaWidth": 1240,
+                    "mediaHeight": 775,
+                    "scaleMode": "zoom",
+                    "src": "Medias/Photos/wall-Recovered.png",
+                    "duration": "00:31.00",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "centerY": "52.51",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/play-button.png",
+                    "zIndex": 2,
+                    "id": "7BCEC1E0-6527-DB07-37B2-2E8C4C2DF13A",
+                    "mediaHeight": 1534,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1534,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "331.76",
+                    "width": "100.00",
+                    "height": "100.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "56892761-8BFA-E767-1625-47499C8B56E6",
+                        "targetSequence": "0E999E58-1516-C6B9-70C1-474953C72365",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(0,0,0,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "name": "play-button.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 359.75,
+            "size": "medium",
+            "y": 465.4,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "right": "548.00",
+                    "dataend": "00:31.00",
+                    "left": "40.00",
+                    "type": "txt-Title-1",
+                    "text": "<p>La citt&agrave; ideale di Leonardo</p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "top": "31.00",
+                    "scales": false,
+                    "duration": "00:31.00",
+                    "height": "60.00",
+                    "id": "2BBAAA52-C1B5-93BA-4C15-291B3DA13C4B",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "centerY": "-77.05",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">Scopri l'evoluzione della citt&agrave; partendo dalle idee di Leonardo</span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 3,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "331.38",
+                    "width": "592.99",
+                    "height": "117.77",
+                    "id": "5E6C4208-AF09-BC8F-15EE-2E8FD84B213A",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "centerY": "-77.00",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">Scopri&nbsp;qualcosa</span></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 4,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-331.00",
+                    "width": "593.00",
+                    "height": "118.00",
+                    "id": "FF808237-D262-17EA-3ED5-2E915C5F3987",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1",
+            "buttons": [
+                {
+                    "right": "20.00",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 6,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "top": "20.00",
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "120.00",
+                    "height": "60.00",
+                    "label": "Back",
+                    "id": "4EFC4864-3805-B794-A6A7-2E9ABC524A57",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "right": "20.00",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-4",
+                    "zIndex": 8,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "62738A0F-A4A2-F290-90EE-2E9E24A8D783",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "bottom": "20.00",
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "120.00",
+                    "height": "60.00",
+                    "label": "Home",
+                    "id": "12C75749-1858-A543-35F8-2E9DBA197763",
+                    "databegin": "00:00.00"
+                }
+            ]
+        },
+        "FD372935-188B-DF55-6453-8E7BABE1731A": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/wall-Recovered.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Leo in FVG",
+            "images": [
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "zIndex": 1,
+                    "horizontalAlign": "center",
+                    "name": "wall-Recovered.png",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "id": "F7A42D78-B509-9E1F-8C69-8E9E0E95E3D1",
+                    "fitToWindow": true,
+                    "mediaWidth": 1240,
+                    "mediaHeight": 775,
+                    "scaleMode": "zoom",
+                    "src": "Medias/Photos/wall-Recovered.png",
+                    "duration": "00:31.00",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 555.1,
+            "size": "medium",
+            "y": 457.85,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "right": "258.00",
+                    "dataend": "00:31.00",
+                    "left": "35.00",
+                    "type": "txt-Title-1",
+                    "text": "<p>Le impronte del genio nel nostro territorio</p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 4,
+                    "top": "21.00",
+                    "scales": false,
+                    "duration": "00:31.00",
+                    "height": "60.00",
+                    "id": "D548A33B-60B1-1B02-D1D6-2EA040C6854E",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "FD372935-188B-DF55-6453-8E7BABE1731A",
+            "buttons": [
+                {
+                    "right": "20.00",
+                    "dataend": "00:31.00",
+                    "type": "klynt-button-4",
+                    "zIndex": 3,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "891326D8-B963-CAE3-B742-2EA01B349C7D",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "bottom": "20.00",
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "120.00",
+                    "height": "60.00",
+                    "label": "Home",
+                    "id": "E322C6B8-59A5-D033-646C-2EA01B34AD3D",
+                    "databegin": "00:00.00"
+                }
+            ]
+        },
+        "EE1F9369-3E65-60AF-EC58-9D1293E592F7": {
+            "hideInMindmap": false,
+            "title": "Chora",
+            "y": 48.150000000000006,
+            "hideThumbnailInMindmap": false,
+            "id": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
+            "hideTitleInMindmap": false,
+            "x": 1461.2833333333333,
+            "size": "small",
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)"
         },
         "B946A618-7142-8493-4B0C-8E7B9BF5E592": {
             "hideInMindmap": false,
@@ -2241,6 +1698,1006 @@ klynt.data = {
                 }
             ]
         },
+        "0E999E58-1516-C6B9-70C1-474953C72365": {
+            "hideInMindmap": false,
+            "title": "Video flussi",
+            "y": 614.8,
+            "hideThumbnailInMindmap": false,
+            "id": "0E999E58-1516-C6B9-70C1-474953C72365",
+            "hideTitleInMindmap": false,
+            "x": 357.33333333333337,
+            "size": "small",
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)"
+        },
+        "64A33728-D7F8-85AA-4409-3D8D15AB69B7": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/salvator.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "gesù",
+            "images": [
+                {
+                    "centerY": "-0.16",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/salvator.jpg",
+                    "zIndex": 1,
+                    "id": "8AEB7EFD-1E03-4802-7419-3D8D6B77BE99",
+                    "mediaHeight": 923,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 630,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-382.50",
+                    "width": "447.16",
+                    "height": "654.79",
+                    "name": "salvator.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -63.91666666666666,
+            "size": "small",
+            "y": 199.7,
+            "backgroundColor": "rgba(0,0,0,0.9)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-250.72",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"font-size: 35pt;\"><span style=\"font-family: 'Abril Fatface'; color: #ffcc00;\">Titolo:</span> Salvator mundi</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "269.05",
+                    "width": "508.05",
+                    "height": "99.96",
+                    "id": "FD192DAC-5FC7-B66E-2858-3D8E1B25D968",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "64A33728-D7F8-85AA-4409-3D8D15AB69B7"
+        },
+        "60272FE2-9E3C-EF70-0A63-83E95AFF1F99": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Leonardo e la città",
+            "images": [
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "zIndex": 0,
+                    "horizontalAlign": "center",
+                    "name": "imola_menu.png",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "id": "DBCB1580-2AAE-F7A3-53CA-8495F3FEF632",
+                    "fitToWindow": true,
+                    "mediaWidth": 1240,
+                    "mediaHeight": 697,
+                    "scaleMode": "zoom",
+                    "src": "Medias/Photos/imola_menu.png",
+                    "duration": "00:31.00",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "centerY": "108.72",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/play-button.png",
+                    "zIndex": 4,
+                    "id": "44A5208F-DA93-0693-F515-2DDD1C22AAAD",
+                    "mediaHeight": 1534,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1534,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-0.00",
+                    "width": "120.00",
+                    "height": "120.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "82D87566-2798-62D1-F0E5-2DDEE7DA276F",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "name": "play-button.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 474.08333333333337,
+            "size": "small",
+            "y": 22.300000000000004,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-62.57",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #ffcc00; font-size: 65pt; font-family: 'Droid Sans';\"><strong>Leonardo e la Citt&agrave;</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #ffcc00; font-size: 50pt; font-family: Economica;\"><strong>Le orme del genio</strong></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-0.04",
+                    "width": "1132.00",
+                    "height": "194.97",
+                    "id": "E19EA485-ED31-5C71-9E01-849BC714620A",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "shapes": [
+                {
+                    "centerY": "0.00",
+                    "dataend": "00:31.00",
+                    "type": "default",
+                    "zIndex": 1,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "style": {
+                        "backgroundColor": "rgba(0,0,0,0.7)"
+                    },
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "0.00",
+                    "width": "1000.00",
+                    "height": "400.00",
+                    "label": "leo",
+                    "id": "8B6B84F7-3BC7-D3F5-E918-849806859310",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "60272FE2-9E3C-EF70-0A63-83E95AFF1F99"
+        },
+        "94872949-87C3-5F06-EB6E-8528F167F49A": {
+            "hideInMindmap": false,
+            "title": "La città Contemporanea",
+            "y": 541.25,
+            "hideThumbnailInMindmap": false,
+            "id": "94872949-87C3-5F06-EB6E-8528F167F49A",
+            "hideTitleInMindmap": false,
+            "x": 984.55,
+            "size": "medium",
+            "backgroundColor": "rgba(0,0,0,1)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)"
+        },
+        "53175633-8263-8F37-6F82-3D9A47845F27": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/carro_armato.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "carro armato",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/carro_armato.jpg",
+                    "zIndex": 1,
+                    "id": "47B6F418-CDC4-8F10-395F-3D9B400DC78C",
+                    "mediaHeight": 675,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 960,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-224.00",
+                    "width": "840.00",
+                    "height": "591.00",
+                    "name": "carro_armato.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -71.31666666666666,
+            "size": "small",
+            "y": 521.4,
+            "backgroundColor": "rgba(0,0,0,0.9)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "id": "53175633-8263-8F37-6F82-3D9A47845F27"
+        },
+        "40B5B941-DE22-8A52-1867-3D85F07EE17A": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/gioconda.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "gioconda",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/gioconda.jpg",
+                    "zIndex": 1,
+                    "id": "86CEBB58-E152-E071-4DDA-3D8F444280F1",
+                    "mediaHeight": 1024,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 768,
+                    "scales": false,
+                    "duration": "00:31.00",
+                    "centerX": "-297.00",
+                    "width": "370.00",
+                    "height": "493.00",
+                    "name": "gioconda.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -66.51666666666665,
+            "size": "small",
+            "y": 274.8,
+            "backgroundColor": "rgba(0,0,0,0.9)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-273.61",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-1",
+                    "text": "<p><span style=\"font-size: 35pt;\">Titolo: <span style=\"font-family: Lato; color: #ffffff;\">Gioconda</span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "316.92",
+                    "width": "474.99",
+                    "height": "78.35",
+                    "id": "957208EB-6280-8C16-3F91-3D8FD29F49E3",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "40B5B941-DE22-8A52-1867-3D85F07EE17A"
+        },
+        "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/macchina_volante.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "macchina volante",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/macchina_volante.jpg",
+                    "zIndex": 1,
+                    "id": "557495E8-0CAE-4F7E-4E5C-3DA3BD993CDE",
+                    "mediaHeight": 283,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 500,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-307.00",
+                    "width": "626.00",
+                    "height": "355.00",
+                    "name": "macchina_volante.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -75.66666666666666,
+            "size": "small",
+            "y": 733.05,
+            "backgroundColor": "rgba(0,0,0,0.9)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "id": "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD"
+        },
+        "49EB144C-7E01-49DF-CFF0-8528A28BD875": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/ch6.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "L'antichità",
+            "images": [
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:41.00",
+                    "zIndex": 2,
+                    "horizontalAlign": "center",
+                    "name": "catal_huyuk.jpg",
+                    "id": "8E264285-DDD3-72CF-560B-A6AF35B95787",
+                    "fitToWindow": true,
+                    "mediaWidth": 800,
+                    "mediaHeight": 500,
+                    "scaleMode": "zoom",
+                    "src": "Medias/Photos/catal_huyuk.jpg",
+                    "duration": "00:12.57",
+                    "databegin": "00:28.43"
+                }
+            ],
+            "x": 971.0833333333334,
+            "size": "medium",
+            "y": -47.900000000000006,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "videos": [
+                {
+                    "centerY": "4.65",
+                    "verticalAlign": "middle",
+                    "dataend": "00:28.43",
+                    "zIndex": 0,
+                    "frameRate": 0,
+                    "player": true,
+                    "mediaWidth": 853,
+                    "volume": 1,
+                    "scales": true,
+                    "name": "La_citta_antica___Made_with_Clipchamp__4_.mp4",
+                    "autoplay": true,
+                    "loop": false,
+                    "height": "711.39",
+                    "id": "96A37E19-D2DE-A1EA-2977-A3E945CCB9CC",
+                    "width": "1265.29",
+                    "mediaHeight": 480,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "poster": "Medias/Posters/La_citta_antica___Made_with_Clipchamp__4_.mp4.jpg",
+                    "scaleMode": "zoom",
+                    "duration": "00:28.43",
+                    "centerX": "-0.61",
+                    "src": [
+                        {
+                            "type": "video/mp4",
+                            "src": "Medias/Videos/La_citta_antica___Made_with_Clipchamp__4_.mp4"
+                        }
+                    ],
+                    "horizontalAlign": "center",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "duration": 40.00266582900914,
+            "color": "rgba(0,0,0,1)",
+            "id": "49EB144C-7E01-49DF-CFF0-8528A28BD875",
+            "buttons": [
+                {
+                    "right": "15.00",
+                    "dataend": "00:41.00",
+                    "type": "klynt-button-3",
+                    "zIndex": 1,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "D0BCB7FB-9401-810B-AB76-9EFD1C43B981",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "bottom": "15.00",
+                    "scales": true,
+                    "duration": "00:41.00",
+                    "width": "97.00",
+                    "height": "59.00",
+                    "label": "Back",
+                    "id": "714D1D33-93D2-9B0B-6160-9EFCD3F521CA",
+                    "databegin": "00:00.00"
+                }
+            ]
+        },
+        "F2EE2068-9907-BC2B-2375-83DAB62365F0": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Scelta percorso",
+            "images": [
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "zIndex": 2,
+                    "horizontalAlign": "center",
+                    "name": "wall-Recovered.png",
+                    "id": "B3167FD2-DCE9-785F-5897-8E4B3ECEE5DC",
+                    "fitToWindow": true,
+                    "mediaWidth": 1240,
+                    "mediaHeight": 775,
+                    "scaleMode": "zoom",
+                    "src": "Medias/Photos/wall-Recovered.png",
+                    "duration": "00:31.00",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "zIndex": 3,
+                    "horizontalAlign": "center",
+                    "name": "citywall.png",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "id": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
+                    "fitToWindow": true,
+                    "mediaWidth": 1240,
+                    "mediaHeight": 697,
+                    "scaleMode": "zoom",
+                    "src": "Medias/Photos/citywall.png",
+                    "style": {
+                        "opacity": 0
+                    },
+                    "duration": "00:31.00",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "zIndex": 4,
+                    "horizontalAlign": "center",
+                    "name": "sfondo-leo.jpg",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "id": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
+                    "fitToWindow": true,
+                    "mediaWidth": 1280,
+                    "mediaHeight": 720,
+                    "scaleMode": "zoom",
+                    "src": "Medias/Photos/sfondo-leo.jpg",
+                    "style": {
+                        "opacity": 0
+                    },
+                    "duration": "00:30.95",
+                    "databegin": "00:00.05"
+                },
+                {
+                    "centerY": "-27.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/leonardo_sfondo-imola_bubble.png",
+                    "zIndex": 5,
+                    "id": "DC3BF3D7-5A15-B5AD-0FD1-83DAC17C02E5",
+                    "mediaHeight": 550,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 550,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "400.00",
+                    "width": "430.00",
+                    "height": "430.00",
+                    "click": [
+                        {
+                            "value": "1",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToFront",
+                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToBack",
+                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
+                        },
+                        {
+                            "value": "0.4",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        }
+                    ],
+                    "name": "leonardo_sfondo-imola_bubble.png",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "centerY": "-27.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/leonardo_sfondo-leoface.png",
+                    "zIndex": 6,
+                    "id": "05C1EE28-6763-E47F-BFBA-83DAC223AFF8",
+                    "mediaHeight": 551,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 550,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-400.00",
+                    "width": "430.00",
+                    "height": "430.00",
+                    "click": [
+                        {
+                            "value": "1",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0.5",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToFront",
+                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToBack",
+                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        }
+                    ],
+                    "name": "leonardo_sfondo-leoface.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 476.0333333333333,
+            "size": "small",
+            "y": 130.85,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "218.00",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #ffcc00;\"><em><strong><span style=\"font-size: 35pt; font-family: Simonetta;\">Leonardo e</span></strong></em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 25pt; font-family: 'Stardos Stencil';\"><span style=\"color: #ffcc00;\"><em><strong><span style=\"font-size: 35pt; font-family: Simonetta;\">il suo Genio</span></strong></em></span><br /></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "zIndex": 9,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-400.00",
+                    "width": "315.00",
+                    "height": "122.00",
+                    "click": [
+                        {
+                            "value": "0.5",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "DC3BF3D7-5A15-B5AD-0FD1-83DAC17C02E5",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "9E79B714-AB7D-A9BA-AE07-84B1E55FEC2E",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "EC57F856-136E-424A-0994-84B0182F4B61",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        }
+                    ],
+                    "id": "A56A4322-B164-EE6D-E198-84B0E894EB5A",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "centerY": "218.00",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-2",
+                    "text": "<p style=\"text-align: center;\"><em><span style=\"font-family: Simonetta; color: #ffcc00;\"><strong><span style=\"font-size: 35pt;\">La Citt&agrave; e<br /></span></strong></span></em></p>\n<p style=\"text-align: center;\"><em><span style=\"font-family: Simonetta; color: #ffcc00;\"><strong><span style=\"font-size: 35pt;\">i suoi Modelli</span></strong></span></em></p>",
+                    "name": "Text 2",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "zIndex": 10,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "400.00",
+                    "width": "301.00",
+                    "height": "124.00",
+                    "click": [
+                        {
+                            "value": "1",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToFront",
+                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToBack",
+                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
+                        },
+                        {
+                            "value": "0.4",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        }
+                    ],
+                    "id": "9E79B714-AB7D-A9BA-AE07-84B1E55FEC2E",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "shapes": [
+                {
+                    "centerY": "218.00",
+                    "dataend": "00:31.00",
+                    "click": [
+                        {
+                            "value": "1",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToFront",
+                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToBack",
+                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
+                        },
+                        {
+                            "value": "0.5",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        }
+                    ],
+                    "type": "default",
+                    "zIndex": 7,
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "style": {
+                        "backgroundColor": "rgba(0,0,0,0.9)"
+                    },
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-400.00",
+                    "width": "316.00",
+                    "height": "151.00",
+                    "label": "Hotspot 1",
+                    "id": "A3B4F2F0-333B-1974-11C4-84AFE831E05D",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "centerY": "218.00",
+                    "dataend": "00:31.00",
+                    "click": [
+                        {
+                            "value": "1",
+                            "easing": "linear",
+                            "type": "style",
+                            "duration": 0.5,
+                            "target": "self",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToFront",
+                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
+                        },
+                        {
+                            "reversible": false,
+                            "delay": 0,
+                            "type": "layout",
+                            "name": "bringToBack",
+                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
+                        },
+                        {
+                            "value": "0.4",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        },
+                        {
+                            "value": "0",
+                            "easing": "easeInOutSine",
+                            "type": "style",
+                            "duration": 1,
+                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
+                            "reversible": false,
+                            "delay": 0,
+                            "name": "opacity"
+                        }
+                    ],
+                    "type": "default",
+                    "zIndex": 8,
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "style": {
+                        "backgroundColor": "rgba(0,0,0,0.9)"
+                    },
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "400.00",
+                    "width": "314.00",
+                    "height": "153.00",
+                    "label": "Hotspot 2",
+                    "id": "EC57F856-136E-424A-0994-84B0182F4B61",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
+            "buttons": [
+                {
+                    "centerY": "-25.01",
+                    "dataend": "00:31.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
+                        "linkType": "linkToSequence",
+                        "transition": "slideRight",
+                        "id": "05081996-66F0-F115-4AE1-2DEF56306467",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "type": "klynt-arrow-left",
+                    "zIndex": 0,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "2"
+                    },
+                    "style": {
+                        "rotation": -2.5444437451708134e-14
+                    },
+                    "scales": true,
+                    "duration": "00:30.95",
+                    "centerX": "16.01",
+                    "width": "125.00",
+                    "height": "125.00",
+                    "label": "",
+                    "id": "C7B85B10-358B-157B-2E89-2DED728DD01B",
+                    "databegin": "00:00.05"
+                },
+                {
+                    "centerY": "-25.20",
+                    "dataend": "00:31.00",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "87E70905-ECC5-BBBA-661E-8D3EE0E023A2",
+                        "linkType": "linkToSequence",
+                        "transition": "slideLeft",
+                        "id": "684F3E97-7EF9-98F6-4E24-2DEF8AF3F107",
+                        "color": "rgba(0,0,0,1)"
+                    },
+                    "type": "klynt-arrow-right",
+                    "zIndex": 1,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "2"
+                    },
+                    "style": {
+                        "rotation": -8.438205933619301e-7
+                    },
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "15.95",
+                    "width": "125.00",
+                    "height": "125.00",
+                    "label": "",
+                    "id": "9F3A1519-8FBC-C381-2B8F-2DED1200F099",
+                    "databegin": "00:00.00"
+                }
+            ]
+        },
         "10BC9413-5F6B-F19E-41B7-9D129AA08A57": {
             "hideInMindmap": false,
             "title": "Atene",
@@ -2253,6 +2710,1293 @@ klynt.data = {
             "backgroundColor": "rgba(0,0,0,0.75)",
             "duration": 30,
             "color": "rgba(0,0,0,1)"
+        },
+        "550DB8E1-71A8-C3EF-E90E-8E79954C96D7": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/neapolis.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Napoli",
+            "images": [
+                {
+                    "right": "16.43",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/neapolis.jpg",
+                    "zIndex": 1,
+                    "id": "0B0FCF73-B840-4C35-00AF-9DADD4176540",
+                    "mediaHeight": 730,
+                    "verticalAlign": "middle",
+                    "top": "18.27",
+                    "horizontalAlign": "center",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1024,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "659.99",
+                    "height": "470.49",
+                    "name": "neapolis.jpg",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/neapolis__1_.jpg",
+                    "zIndex": 2,
+                    "id": "E0F12CA7-91ED-C336-6465-9DAEC0DC7C56",
+                    "mediaHeight": 381,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "height": "444.51",
+                    "horizontalAlign": "center",
+                    "bottom": "15.37",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 550,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "641.67",
+                    "left": "23.03",
+                    "name": "neapolis__1_.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1631.1833333333332,
+            "size": "small",
+            "y": 110.9,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "id": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7"
+        },
+        "075E7926-3D3B-AB36-733D-8E7985CE9FB6": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Megara_Iblea.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Megara Iblea",
+            "images": [
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/Megara_Iblea.jpg",
+                    "zIndex": 1,
+                    "id": "B9FC66CD-6FF2-9382-E9C1-9DAB80965DDF",
+                    "mediaHeight": 456,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "height": "362.56",
+                    "horizontalAlign": "center",
+                    "bottom": "12.59",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 500,
+                    "scales": false,
+                    "duration": "00:31.00",
+                    "width": "397.54",
+                    "left": "16.15",
+                    "name": "Megara_Iblea.jpg",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "right": "21.26",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/Megara_Iblea_1.jpg",
+                    "zIndex": 2,
+                    "id": "054417C9-1E49-AE8A-53F1-9DAB94FBC9AE",
+                    "mediaHeight": 815,
+                    "verticalAlign": "middle",
+                    "top": "22.72",
+                    "horizontalAlign": "center",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1240,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "567.79",
+                    "height": "373.19",
+                    "name": "Megara_Iblea_1.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1460.2833333333333,
+            "size": "small",
+            "y": 108.95,
+            "backgroundColor": "rgba(0,0,0,0.7)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "id": "075E7926-3D3B-AB36-733D-8E7985CE9FB6"
+        },
+        "C62F4C80-1142-70B2-6C1E-9CE787C67A54": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/la_citta_greca___Made_with_Clipchamp.mp4.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "video polis",
+            "x": 1169.3333333333333,
+            "size": "small",
+            "y": 100.05,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "videos": [
+                {
+                    "autoplay": true,
+                    "verticalAlign": "middle",
+                    "dataend": "00:34.93",
+                    "src": [
+                        {
+                            "type": "video/mp4",
+                            "src": "Medias/Videos/la_citta_greca___Made_with_Clipchamp.mp4"
+                        }
+                    ],
+                    "zIndex": 0,
+                    "id": "FB699F45-85D5-AD9D-4EE1-9D23ACC60214",
+                    "name": "la_citta_greca___Made_with_Clipchamp.mp4",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "poster": "Medias/Posters/la_citta_greca___Made_with_Clipchamp.mp4.jpg",
+                    "mediaHeight": 480,
+                    "fitToWindow": true,
+                    "syncMaster": true,
+                    "volume": 1,
+                    "duration": "00:34.93",
+                    "player": true,
+                    "loop": false,
+                    "scaleMode": "zoom",
+                    "mediaWidth": 853,
+                    "frameRate": 0,
+                    "databegin": "00:00.00"
+                }
+            ],
+            "duration": 34.933,
+            "color": "rgba(240,120,24,1)",
+            "texts": [
+                {
+                    "centerY": "-193.55",
+                    "dataend": "00:05.73",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"color: #000000; font-size: 35pt; font-family: Quicksand;\">Si basa sulla tripartizione</span></p>",
+                    "name": "si basa sulla tripartizione",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "0.5"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "0.5"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:02.83",
+                    "centerX": "-232.46",
+                    "width": "597.11",
+                    "height": "55.00",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "92C2FA4E-31AE-CB28-FB35-9CEE6B38FE58",
+                    "databegin": "00:02.90"
+                },
+                {
+                    "centerY": "-254.02",
+                    "dataend": "00:05.73",
+                    "type": "txt-Title-2",
+                    "text": "<p><span style=\"font-family: Lato;\"><span style=\"color: #000000; font-size: 35pt; font-family: Quicksand;\">La sua struttura</span><br /></span></p>",
+                    "name": "la sua struttura",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "0.5"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "0.5"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:03.33",
+                    "centerX": "-389.19",
+                    "width": "381.37",
+                    "height": "55.00",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "38C59075-8864-3108-88DF-9CEBF5CC1188",
+                    "databegin": "00:02.40"
+                },
+                {
+                    "centerY": "-225.61",
+                    "dataend": "00:17.51",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"font-size: 36pt; color: #000000; font-family: Quicksand;\">Un esempio reale</span></p>\n<p><span style=\"font-size: 36pt; color: #000000; font-family: Quicksand;\">ci &egrave; dato di resti</span></p>\n<p><span style=\"font-family: Quicksand;\"><span style=\"font-size: 36pt; color: #000000;\">della polis&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 57px; font-size: 48px;\">di <span style=\"text-decoration: underline;\"><em><span style=\"color: #660000; text-decoration: underline;\">Atene</span></em></span></span></span></p>",
+                    "name": "Text 4",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "0.4"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "0.2"
+                    },
+                    "zIndex": 3,
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "87B3FB59-6A14-156F-E800-9D13D81F90B1",
+                        "targetSequence": "10BC9413-5F6B-F19E-41B7-9D129AA08A57",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "flip",
+                        "color": "rgba(240,120,24,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "scales": true,
+                    "duration": "00:03.82",
+                    "centerX": "336.16",
+                    "width": "488.33",
+                    "height": "181.68",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "EA0ECE05-7E2D-E5FD-30AB-9D0346B8C109",
+                    "databegin": "00:13.69"
+                },
+                {
+                    "centerY": "-248.12",
+                    "dataend": "00:24.08",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">Lo schema tripartito</span></p>\n<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">&egrave; un'invenzione di</span></p>\n<p><span style=\"text-decoration: underline; color: #660000;\"><span style=\"font-family: Quicksand;\"><span style=\"font-size: 30pt; text-decoration: underline;\">Ippodamo&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 48px; font-size: 40px; text-decoration: underline;\">da Mileto</span></span></span></p>",
+                    "name": "Text 6",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 7,
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "A10EAF79-C34A-05AF-A004-9DB3CEDC7AA7",
+                        "targetSequence": "A1664808-B10A-FDF1-39F2-8E7998F0FC7C",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(0,0,0,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "scales": true,
+                    "duration": "00:05.69",
+                    "centerX": "-388.73",
+                    "width": "430.74",
+                    "height": "149.19",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "F586E31D-68FE-1908-C8B2-9D54C20B48C9",
+                    "databegin": "00:18.39"
+                },
+                {
+                    "centerY": "-6.80",
+                    "dataend": "00:24.08",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">Il primo vero <strong>Urbanista</strong></span></p>",
+                    "name": "Text 7",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 8,
+                    "scales": true,
+                    "duration": "00:05.15",
+                    "centerX": "381.38",
+                    "width": "490.12",
+                    "height": "51.16",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "26F78132-5CDA-AD58-1401-9D57750B8675",
+                    "databegin": "00:18.93"
+                },
+                {
+                    "centerY": "222.04",
+                    "dataend": "00:24.08",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"font-family: Quicksand;\"><span style=\"color: #000000; font-size: 30pt;\">Poich&egrave;&nbsp;va oltre&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 48px; font-size: 40px;\">la semplice</span></span></p>\n<p><span style=\"font-family: Quicksand;\"><span style=\"color: #000000; font-size: 30pt;\">progettazione&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 48px; font-size: 40px;\">degli edifici</span></span></p>",
+                    "name": "Text 8",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 9,
+                    "scales": true,
+                    "duration": "00:04.60",
+                    "centerX": "337.34",
+                    "width": "539.13",
+                    "height": "98.72",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "662420CE-4D4D-4E3B-E029-9D59B88718BF",
+                    "databegin": "00:19.48"
+                },
+                {
+                    "centerY": "-79.27",
+                    "dataend": "00:29.84",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">Lo schema ippodameo ...</span></p>",
+                    "name": "Text 9",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 10,
+                    "scales": true,
+                    "duration": "00:05.43",
+                    "centerX": "-339.04",
+                    "width": "528.47",
+                    "height": "57.16",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "E516E671-4BD8-6A9C-1BD2-9D5CCF85C7FF",
+                    "databegin": "00:24.41"
+                },
+                {
+                    "centerY": "16.59",
+                    "dataend": "00:29.84",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">... sar&agrave; un modello&nbsp;per tutte</span></p>\n<p><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">le colonie della Magna Grecia</span></p>",
+                    "name": "Text 10",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 11,
+                    "scales": true,
+                    "duration": "00:05.02",
+                    "centerX": "-269.07",
+                    "width": "597.06",
+                    "height": "108.98",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "C75B10B6-5B32-A500-CF4F-9D5E083A13AA",
+                    "databegin": "00:24.82"
+                },
+                {
+                    "centerY": "-211.37",
+                    "dataend": "00:34.52",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">E verr&agrave; ripreso anche</span></p>\n<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">da Dinocrate di Rodi</span></p>",
+                    "name": "Text 11",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 12,
+                    "scales": true,
+                    "duration": "00:04.05",
+                    "centerX": "-374.89",
+                    "width": "447.71",
+                    "height": "105.69",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "F8AC25C4-27B0-C5DB-2744-9D60E0A45736",
+                    "databegin": "00:30.47"
+                },
+                {
+                    "centerY": "28.70",
+                    "dataend": "00:34.52",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">Per la progettazione&nbsp;della magnifica&nbsp;</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">Alessandria d'Egitto</span></p>",
+                    "name": "Text 12",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 13,
+                    "scales": true,
+                    "duration": "00:03.48",
+                    "centerX": "218.88",
+                    "width": "769.02",
+                    "height": "102.39",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.4)"
+                    },
+                    "id": "B7453E44-636C-12CC-E6AB-9D622F209510",
+                    "databegin": "00:31.04"
+                }
+            ],
+            "shapes": [
+                {
+                    "centerY": "-171.45",
+                    "dataend": "00:29.84",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "F52BB63D-7ADE-A3CF-4DA0-9DA7805C950C",
+                        "targetSequence": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(0,0,0,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "type": "default",
+                    "zIndex": 15,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "style": {
+                        "backgroundColor": "rgba(233,66,77,0.1)"
+                    },
+                    "scales": true,
+                    "duration": "00:04.64",
+                    "centerX": "227.95",
+                    "width": "82.00",
+                    "height": "24.23",
+                    "label": "taranto",
+                    "id": "08A71DF8-B1E0-B916-88FB-9D9F24E7FED5",
+                    "databegin": "00:25.20"
+                },
+                {
+                    "centerY": "-196.61",
+                    "dataend": "00:29.84",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "3A21AC27-8DEF-0B16-434A-9DA7A2AA3F73",
+                        "targetSequence": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(0,0,0,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "type": "default",
+                    "zIndex": 16,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "rollOver": [
+                        {
+                            "reversible": true,
+                            "delay": 0,
+                            "type": "mediaAction",
+                            "name": "play",
+                            "target": "FB699F45-85D5-AD9D-4EE1-9D23ACC60214"
+                        }
+                    ],
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "style": {
+                        "backgroundColor": "rgba(233,66,77,0.1)"
+                    },
+                    "scales": true,
+                    "duration": "00:04.64",
+                    "centerX": "-46.00",
+                    "width": "74.55",
+                    "height": "26.09",
+                    "label": "napoli",
+                    "id": "F652A617-AC4D-269B-CC2B-9D9F2B9FD87C",
+                    "databegin": "00:25.20"
+                },
+                {
+                    "centerY": "278.61",
+                    "dataend": "00:29.84",
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "AAEA0616-7213-3F2A-560E-9DA8202C7B63",
+                        "targetSequence": "075E7926-3D3B-AB36-733D-8E7985CE9FB6",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(0,0,0,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "type": "default",
+                    "zIndex": 17,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "style": {
+                        "backgroundColor": "rgba(233,66,77,0.1)"
+                    },
+                    "scales": true,
+                    "duration": "00:04.64",
+                    "centerX": "91.91",
+                    "width": "134.18",
+                    "height": "27.95",
+                    "label": "megara iblea",
+                    "id": "ABAFF398-A1F4-7BD5-AE4B-9D9F3277364A",
+                    "databegin": "00:25.20"
+                }
+            ],
+            "id": "C62F4C80-1142-70B2-6C1E-9CE787C67A54",
+            "buttons": [
+                {
+                    "centerY": "-206.87",
+                    "dataend": "00:12.16",
+                    "type": "klynt-button-4",
+                    "zIndex": 4,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "62D0E911-1059-8992-C23E-9D15B4926D00",
+                        "targetSequence": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(240,120,24,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "scales": true,
+                    "duration": "00:06.43",
+                    "centerX": "-522.03",
+                    "width": "128.05",
+                    "height": "52.09",
+                    "label": "Scopri l'Acropoli",
+                    "id": "55DCA0F8-73A3-7A39-2C80-9D098257A2A7",
+                    "databegin": "00:05.73"
+                },
+                {
+                    "centerY": "33.95",
+                    "dataend": "00:12.71",
+                    "type": "klynt-button-4",
+                    "zIndex": 5,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "14EE29BE-62CB-5CE8-99A6-9D15E3B20EA8",
+                        "targetSequence": "0470597F-4614-D4C0-3022-9D128E895EF9",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(240,120,24,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "scales": true,
+                    "duration": "00:06.98",
+                    "centerX": "-524.67",
+                    "width": "126.40",
+                    "height": "48.79",
+                    "label": "Scopri l'Asty",
+                    "id": "B371BAFA-89C0-BDB9-78DE-9D0D034A8F62",
+                    "databegin": "00:05.73"
+                },
+                {
+                    "centerY": "260.95",
+                    "dataend": "00:13.11",
+                    "type": "klynt-button-4",
+                    "zIndex": 6,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "id": "EE0ECF5F-6C12-EF57-9674-9D160C2CAA0C",
+                        "targetSequence": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
+                        "closeButton": true,
+                        "automaticClose": false,
+                        "transition": "pop",
+                        "color": "rgba(240,120,24,1)",
+                        "closeButtonTop": 16,
+                        "closeButtonRight": 16,
+                        "automaticTransition": false,
+                        "pauseParent": true,
+                        "linkType": "linkToSequence",
+                        "overlay": true,
+                        "controlDX": 0
+                    },
+                    "scales": true,
+                    "duration": "00:07.38",
+                    "centerX": "-519.58",
+                    "width": "134.61",
+                    "height": "53.77",
+                    "label": "Scopri la Chorà",
+                    "id": "E1F6C51F-E6A8-4DA9-AE4D-9D0DC7C5E856",
+                    "databegin": "00:05.73"
+                },
+                {
+                    "right": "14.99",
+                    "dataend": "00:35.93",
+                    "type": "klynt-button-3",
+                    "zIndex": 14,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "link": {
+                        "hideInMindmap": false,
+                        "controlDY": 0,
+                        "hideArrowInMindmap": false,
+                        "automaticTransition": false,
+                        "controlDX": 0,
+                        "targetSequence": "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843",
+                        "linkType": "linkToSequence",
+                        "transition": "fade",
+                        "id": "51A71065-E0BA-4383-3653-9D9AE753393B",
+                        "color": "rgba(240,120,24,1)"
+                    },
+                    "bottom": "15.01",
+                    "scales": true,
+                    "duration": "00:35.93",
+                    "width": "85.01",
+                    "height": "44.00",
+                    "label": "Back",
+                    "id": "F1D3230C-9656-A399-EBFC-9D9A591C72EE",
+                    "databegin": "00:00.00"
+                }
+            ]
+        },
+        "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Taranto.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Taranto",
+            "images": [
+                {
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/Taranto_1.jpg",
+                    "zIndex": 1,
+                    "id": "D4DB5A37-A3B9-CC43-C2F9-9DACBDB7CFB4",
+                    "mediaHeight": 613,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "height": "383.53",
+                    "top": "20.27",
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 768,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "480.52",
+                    "left": "26.10",
+                    "name": "Taranto_1.jpg",
+                    "databegin": "00:00.00"
+                },
+                {
+                    "right": "15.18",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/Taranto.jpg",
+                    "zIndex": 2,
+                    "id": "336F0EA4-7D6B-8767-9A29-9DACB86CC7D7",
+                    "mediaHeight": 300,
+                    "verticalAlign": "middle",
+                    "horizontalAlign": "center",
+                    "bottom": "19.13",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 768,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "width": "876.78",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "height": "342.50",
+                    "name": "Taranto.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1540.1833333333332,
+            "size": "small",
+            "y": 109.2,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "id": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8"
+        },
+        "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/paracadute.png.png",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "paracadute",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/paracadute.png",
+                    "zIndex": 1,
+                    "id": "36468B18-7D30-A082-5EAD-3DA4B766B11F",
+                    "mediaHeight": 593,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 644,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-305.00",
+                    "width": "666.00",
+                    "height": "613.00",
+                    "name": "paracadute.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -73.31666666666666,
+            "size": "small",
+            "y": 662.1,
+            "backgroundColor": "rgba(0,0,0,0.9)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "id": "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E"
+        },
+        "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/cena.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "cena",
+            "images": [
+                {
+                    "centerY": "-19.33",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/cena.jpg",
+                    "zIndex": 1,
+                    "id": "48602CC2-2A26-CF21-908F-3D0E6AD74D67",
+                    "mediaHeight": 630,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 992,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-334.09",
+                    "width": "626.15",
+                    "height": "351.98",
+                    "name": "cena.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -71.81666666666666,
+            "size": "small",
+            "y": 429.4,
+            "backgroundColor": "rgba(0,0,0,0.9)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-214.86",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-1",
+                    "text": "<p><span style=\"font-size: 35pt;\">Titolo: <span style=\"font-family: Lato; color: #ffffff;\">Ultima cena</span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "337.64",
+                    "width": "557.91",
+                    "height": "75.17",
+                    "id": "D30A2E31-693B-1368-1E63-3D9522169E4E",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2"
+        },
+        "60B0D847-A8A5-0E06-2FC6-8528EB355993": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Citta_Romana___Made_with_Clipchamp.mp4.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "La città Romana",
+            "x": 975.95,
+            "size": "medium",
+            "y": 240.45,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "videos": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "01:10.83",
+                    "zIndex": 0,
+                    "frameRate": 0,
+                    "player": true,
+                    "mediaWidth": 853,
+                    "volume": 1,
+                    "scales": true,
+                    "name": "Citta_Romana_1___Made_with_Clipchamp.mp4",
+                    "autoplay": true,
+                    "loop": false,
+                    "height": "707.00",
+                    "id": "DE64FAF0-F114-4952-15CD-2EF1EF5620BD",
+                    "width": "1257.00",
+                    "syncMaster": true,
+                    "mediaHeight": 480,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "poster": "Medias/Posters/Citta_Romana_1___Made_with_Clipchamp.mp4.jpg",
+                    "scaleMode": "zoom",
+                    "duration": "01:10.83",
+                    "centerX": "0.00",
+                    "src": [
+                        {
+                            "type": "video/mp4",
+                            "src": "Medias/Videos/Citta_Romana_1___Made_with_Clipchamp.mp4"
+                        }
+                    ],
+                    "horizontalAlign": "center",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "duration": 70.833,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "289.57",
+                    "dataend": "00:19.73",
+                    "type": "txt-Title-3",
+                    "text": "<p><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">Infatti vennero fondate molte <strong>colonie&nbsp;</strong></span><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">sia nel periodo imperiale che repubblicano&nbsp;</span></p>",
+                    "name": "Text 3",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:07.41",
+                    "centerX": "-114.78",
+                    "width": "980.33",
+                    "height": "108.94",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "C5BAAAA6-2812-4E02-A03E-22CDC7103C1A",
+                    "databegin": "00:12.32"
+                },
+                {
+                    "centerY": "312.69",
+                    "dataend": "00:52.88",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">L'incrocio degli <strong>assi principali</strong> <strong>non</strong>&nbsp;era sempre il <strong>centro geometrico della citt&agrave;</strong></span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:08.80",
+                    "centerX": "1.87",
+                    "width": "1215.27",
+                    "height": "51.71",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "9CC4DAE1-3DF6-8507-9A87-22E8BEBBACF0",
+                    "databegin": "00:44.08"
+                },
+                {
+                    "centerY": "347.22",
+                    "dataend": "00:28.06",
+                    "type": "txt-Title-2",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #330000;\">Pianta della Torino romana</span></p>",
+                    "name": "Text 8",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 1,
+                    "scales": true,
+                    "duration": "00:05.00",
+                    "centerX": "237.85",
+                    "width": "438.21",
+                    "height": "59.91",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.7)"
+                    },
+                    "id": "5E976DC2-FEF9-BB72-5E4B-22EE23466D2C",
+                    "databegin": "00:23.06"
+                },
+                {
+                    "centerY": "289.57",
+                    "dataend": "00:39.58",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: right;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Nel foro si svolgevano le riunioni politiche, veniva amministrata la giustizia,&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">si esercitava il commercio e si svolgevano le cerimonie religiose</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:07.89",
+                    "centerX": "48.81",
+                    "width": "1160.81",
+                    "height": "112.57",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "80D4B7B3-74DF-B9A2-1BCB-22E1CEF02B15",
+                    "databegin": "00:31.69"
+                },
+                {
+                    "centerY": "-297.49",
+                    "dataend": "00:59.26",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center; \"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: rgb(0, 0, 0); \"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Lo schema di questo <strong>impianto ortogonale</strong> &egrave; ancora riconoscibile&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">in numerosi centri urbani come <strong>Firenze</strong></span></p>\n<p style=\"text-align: center; \">&nbsp;</p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:05.29",
+                    "centerX": "9.14",
+                    "width": "1215.27",
+                    "height": "89.58",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "5075214E-12AF-0017-AF13-22F02F4BE144",
+                    "databegin": "00:53.97"
+                },
+                {
+                    "centerY": "-282.64",
+                    "dataend": "00:19.73",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: right;\"><span style=\"color: #000000; font-family: 'Droid Sans'; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Questa trov&ograve; attuazione nella fondazione di molti <strong>nuovi centri&nbsp;</strong></span></span><strong><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">urbani&nbsp;</span></strong><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">sia nella <strong>penisola</strong> sia nelle <strong>province</strong></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:09.89",
+                    "centerX": "67.50",
+                    "width": "1115.87",
+                    "height": "114.39",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "B65619A0-FF33-3A6C-B329-22CAE1FBAAFB",
+                    "databegin": "00:09.84"
+                },
+                {
+                    "centerY": "-294.36",
+                    "dataend": "00:52.15",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">La forma della citt&agrave; era generalmente <strong>quadrangolare</strong>,&nbsp;</span></span><span class=\"Apple-style-span\" style=\"font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">dando cos&igrave; origine a schemi quasi <strong>mai completamente simmetrici</strong></span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:10.74",
+                    "centerX": "9.14",
+                    "width": "1215.27",
+                    "height": "95.84",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "6C0DA74D-1323-0103-D382-22E71CABDFF3",
+                    "databegin": "00:41.41"
+                },
+                {
+                    "centerY": "318.00",
+                    "dataend": "01:09.88",
+                    "type": "txt-Title-2",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">Trento, Trentino Alto-Adige, Italia</span></p>",
+                    "name": "Text 8",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:02.99",
+                    "centerX": "379.00",
+                    "width": "513.00",
+                    "height": "60.00",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.5)"
+                    },
+                    "id": "04113DB2-710C-1CDB-98D1-22F6808D30F5",
+                    "databegin": "01:06.89"
+                },
+                {
+                    "centerY": "-258.63",
+                    "dataend": "00:28.87",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Lo schema generale &egrave; basato su <strong>due assi perpendicolari</strong>:</span></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\">&nbsp;</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">il <strong>cardo</strong> massimo e il <strong>decumano</strong> massimo,&nbsp;</span></span><span class=\"Apple-style-span\" style=\"font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">al loro incrocio sorgeva il <strong>foro</strong></span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:07.88",
+                    "centerX": "2.86",
+                    "width": "888.49",
+                    "height": "156.14",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "1C5D2D09-60FD-6E10-6AC6-22D630A3E2AA",
+                    "databegin": "00:20.99"
+                },
+                {
+                    "centerY": "318.00",
+                    "dataend": "01:06.37",
+                    "type": "txt-Title-2",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">Verona, Veneto, Italia</span></p>",
+                    "name": "Text 8",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:02.89",
+                    "centerX": "462.00",
+                    "width": "340.00",
+                    "height": "60.00",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.5)"
+                    },
+                    "id": "00208209-6166-5912-B664-22F310B79CFB",
+                    "databegin": "01:03.48"
+                },
+                {
+                    "centerY": "317.97",
+                    "dataend": "01:02.97",
+                    "type": "txt-Title-2",
+                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">Como, Lombardia, Italia</span></p>",
+                    "name": "Text 8",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:02.73",
+                    "centerX": "442.69",
+                    "width": "384.00",
+                    "height": "60.00",
+                    "style": {
+                        "backgroundColor": "rgba(255,255,255,0.5)"
+                    },
+                    "id": "4D5E5F10-0E6F-A0AA-5F44-22F1B5012CDB",
+                    "databegin": "01:00.24"
+                },
+                {
+                    "centerY": "-270.99",
+                    "dataend": "00:08.72",
+                    "type": "txt-Title-3",
+                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">L'urbanistica <strong>romana</strong> fu l'erede degli <strong>schemi ortogonali</strong> di origine greca</span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "barWipe",
+                        "duration": "1"
+                    },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:04.73",
+                    "centerX": "55.54",
+                    "width": "1102.74",
+                    "height": "58.09",
+                    "style": {
+                        "backgroundColor": "rgba(255,204,0,0.7)"
+                    },
+                    "id": "A07E5D2F-434F-B89D-B036-22C8B53BBE14",
+                    "databegin": "00:03.99"
+                }
+            ],
+            "id": "60B0D847-A8A5-0E06-2FC6-8528EB355993"
         },
         "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF": {
             "hideInMindmap": false,
@@ -4934,351 +6678,9 @@ klynt.data = {
                 }
             ]
         },
-        "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/macchina_volante.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "macchina volante",
-            "images": [
-                {
-                    "centerY": "0.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/macchina_volante.jpg",
-                    "zIndex": 1,
-                    "id": "557495E8-0CAE-4F7E-4E5C-3DA3BD993CDE",
-                    "mediaHeight": 283,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 500,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-307.00",
-                    "width": "626.00",
-                    "height": "355.00",
-                    "name": "macchina_volante.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": -75.66666666666666,
-            "size": "small",
-            "y": 733.05,
-            "backgroundColor": "rgba(0,0,0,0.9)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "id": "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD"
-        },
-        "EE1F9369-3E65-60AF-EC58-9D1293E592F7": {
-            "hideInMindmap": false,
-            "title": "Chora",
-            "y": 48.150000000000006,
-            "hideThumbnailInMindmap": false,
-            "id": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
-            "hideTitleInMindmap": false,
-            "x": 1461.2833333333333,
-            "size": "small",
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)"
-        },
-        "075E7926-3D3B-AB36-733D-8E7985CE9FB6": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/Megara_Iblea.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Megara Iblea",
-            "images": [
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/Megara_Iblea.jpg",
-                    "zIndex": 1,
-                    "id": "B9FC66CD-6FF2-9382-E9C1-9DAB80965DDF",
-                    "mediaHeight": 456,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "height": "362.56",
-                    "horizontalAlign": "center",
-                    "bottom": "12.59",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 500,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "width": "397.54",
-                    "left": "16.15",
-                    "name": "Megara_Iblea.jpg",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "right": "21.26",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/Megara_Iblea_1.jpg",
-                    "zIndex": 2,
-                    "id": "054417C9-1E49-AE8A-53F1-9DAB94FBC9AE",
-                    "mediaHeight": 815,
-                    "verticalAlign": "middle",
-                    "top": "22.72",
-                    "horizontalAlign": "center",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1240,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "567.79",
-                    "height": "373.19",
-                    "name": "Megara_Iblea_1.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": 1460.2833333333333,
-            "size": "small",
-            "y": 108.95,
-            "backgroundColor": "rgba(0,0,0,0.7)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "id": "075E7926-3D3B-AB36-733D-8E7985CE9FB6"
-        },
-        "53175633-8263-8F37-6F82-3D9A47845F27": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/carro_armato.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "carro armato",
-            "images": [
-                {
-                    "centerY": "0.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/carro_armato.jpg",
-                    "zIndex": 1,
-                    "id": "47B6F418-CDC4-8F10-395F-3D9B400DC78C",
-                    "mediaHeight": 675,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 960,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-224.00",
-                    "width": "840.00",
-                    "height": "591.00",
-                    "name": "carro_armato.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": -71.31666666666666,
-            "size": "small",
-            "y": 521.4,
-            "backgroundColor": "rgba(0,0,0,0.9)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "id": "53175633-8263-8F37-6F82-3D9A47845F27"
-        },
-        "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/wall-Recovered.png.png",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "La città ideale",
-            "images": [
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "name": "wall-Recovered.png",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "id": "57D7C753-D319-4866-9823-8E9DE21B415A",
-                    "fitToWindow": true,
-                    "mediaWidth": 1240,
-                    "mediaHeight": 775,
-                    "scaleMode": "zoom",
-                    "src": "Medias/Photos/wall-Recovered.png",
-                    "duration": "00:31.00",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "52.51",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/play-button.png",
-                    "zIndex": 2,
-                    "id": "7BCEC1E0-6527-DB07-37B2-2E8C4C2DF13A",
-                    "mediaHeight": 1534,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1534,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "331.76",
-                    "width": "100.00",
-                    "height": "100.00",
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "BD586D03-D54F-28F0-C5DF-2E8CBD3B3C90",
-                        "targetSequence": "6927CCB6-34B8-0732-CA5D-8E7E1A9F5FFF",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(0,0,0,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "name": "play-button.png",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": 359.75,
-            "size": "medium",
-            "y": 465.4,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "right": "548.00",
-                    "dataend": "00:31.00",
-                    "left": "40.00",
-                    "type": "txt-Title-1",
-                    "text": "<p>La citt&agrave; ideale di Leonardo</p>",
-                    "name": "Text 2",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 1,
-                    "top": "31.00",
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "height": "60.00",
-                    "id": "2BBAAA52-C1B5-93BA-4C15-291B3DA13C4B",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "-77.05",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">Scopri l'evoluzione della citt&agrave; partendo dalle idee di Leonardo</span></p>",
-                    "name": "Text 2",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 3,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "331.38",
-                    "width": "592.99",
-                    "height": "117.77",
-                    "id": "5E6C4208-AF09-BC8F-15EE-2E8FD84B213A",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "-77.00",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 30pt;\">Scopri&nbsp;qualcosa</span></p>",
-                    "name": "Text 2",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 4,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-331.00",
-                    "width": "593.00",
-                    "height": "118.00",
-                    "id": "FF808237-D262-17EA-3ED5-2E915C5F3987",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1",
-            "buttons": [
-                {
-                    "right": "20.00",
-                    "dataend": "00:31.00",
-                    "type": "klynt-button-3",
-                    "zIndex": 6,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "top": "20.00",
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "120.00",
-                    "height": "60.00",
-                    "label": "Back",
-                    "id": "4EFC4864-3805-B794-A6A7-2E9ABC524A57",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "right": "20.00",
-                    "dataend": "00:31.00",
-                    "type": "klynt-button-4",
-                    "zIndex": 8,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "62738A0F-A4A2-F290-90EE-2E9E24A8D783",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "bottom": "20.00",
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "120.00",
-                    "height": "60.00",
-                    "label": "Home",
-                    "id": "12C75749-1858-A543-35F8-2E9DBA197763",
-                    "databegin": "00:00.00"
-                }
-            ]
-        },
         "87E70905-ECC5-BBBA-661E-8D3EE0E023A2": {
             "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/wall-2.jpg.jpg",
+            "thumbnail": null,
             "hideThumbnailInMindmap": false,
             "hideTitleInMindmap": false,
             "title": "la figura di leonardo",
@@ -6066,419 +7468,244 @@ klynt.data = {
                 }
             ]
         },
-        "74C4CB16-62F4-4795-C4A4-37507601009F": {
+        "9B20A371-8B9D-51D7-7831-9D1287E1B1FD": {
             "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/Palmanova.mp4.jpg",
+            "title": "Acropoli",
+            "y": 47.10000000000001,
+            "hideThumbnailInMindmap": false,
+            "id": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
+            "hideTitleInMindmap": false,
+            "x": 1300.0333333333333,
+            "size": "small",
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)"
+        },
+        "A1664808-B10A-FDF1-39F2-8E7998F0FC7C": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/ippodamo.png.png",
             "hideThumbnailInMindmap": false,
             "hideTitleInMindmap": false,
-            "title": "Palmanova google",
-            "x": 1153.5333333333333,
+            "title": "Ippodamo",
+            "images": [
+                {
+                    "centerY": "-106.01",
+                    "verticalAlign": "middle",
+                    "dataend": "00:42.10",
+                    "src": "Medias/Photos/ippodamo.png",
+                    "zIndex": 1,
+                    "id": "A991566F-4513-2E24-1923-9DB5FC973E5D",
+                    "mediaHeight": 645,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1143,
+                    "scales": true,
+                    "duration": "00:42.10",
+                    "centerX": "204.89",
+                    "width": "776.49",
+                    "height": "438.20",
+                    "name": "ippodamo.png",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": 1380.1333333333332,
             "size": "small",
-            "y": 378.1,
+            "y": 107.75,
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "videos": [
+                {
+                    "centerY": "98.09",
+                    "verticalAlign": "bottom",
+                    "dataend": "00:41.10",
+                    "zIndex": 2,
+                    "frameRate": 0,
+                    "player": false,
+                    "mediaWidth": 1584,
+                    "volume": 1,
+                    "scales": true,
+                    "name": "Mileto.mp4",
+                    "autoplay": true,
+                    "loop": true,
+                    "height": "432.66",
+                    "id": "DF82277D-40F3-2F91-664F-9DDABBCD0737",
+                    "width": "776.37",
+                    "syncMaster": true,
+                    "mediaHeight": 912,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "poster": "Medias/Posters/Mileto.mp4.jpg",
+                    "scaleMode": "zoom",
+                    "duration": "00:41.10",
+                    "centerX": "-188.13",
+                    "src": [
+                        {
+                            "type": "video/mp4",
+                            "src": "Medias/Videos/Mileto.mp4"
+                        }
+                    ],
+                    "horizontalAlign": "right",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "duration": 41.099,
+            "color": "rgba(0,0,0,1)",
+            "id": "A1664808-B10A-FDF1-39F2-8E7998F0FC7C"
+        },
+        "72206E33-DB46-10B3-E638-3D86269E8ECE": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/ermellino.jpg.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "ermellino",
+            "images": [
+                {
+                    "centerY": "0.00",
+                    "verticalAlign": "middle",
+                    "dataend": "00:31.00",
+                    "src": "Medias/Photos/ermellino.jpg",
+                    "zIndex": 1,
+                    "id": "2825C445-E309-0196-D6E1-3D873C4497D8",
+                    "mediaHeight": 1490,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaWidth": 1100,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "-380.00",
+                    "width": "491.00",
+                    "height": "665.00",
+                    "name": "ermellino.jpg",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "x": -69.01666666666665,
+            "size": "small",
+            "y": 354.1,
+            "backgroundColor": "rgba(0,0,0,0.9)",
+            "duration": 30,
+            "color": "rgba(0,0,0,1)",
+            "texts": [
+                {
+                    "centerY": "-236.16",
+                    "dataend": "00:31.00",
+                    "type": "txt-Title-1",
+                    "text": "<p><span style=\"font-size: 35pt;\">Titolo:<span style=\"font-family: Lato; color: #ffffff;\">&nbsp;Dama con l'ermellino</span></span></p>",
+                    "name": "Text 1",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "zIndex": 2,
+                    "scales": true,
+                    "duration": "00:31.00",
+                    "centerX": "261.84",
+                    "width": "649.35",
+                    "height": "75.17",
+                    "id": "A5C83DE7-3C87-F37B-D217-3D8849736F25",
+                    "databegin": "00:00.00"
+                }
+            ],
+            "id": "72206E33-DB46-10B3-E638-3D86269E8ECE"
+        },
+        "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F": {
+            "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/intro_biografia.mp4.jpg",
+            "hideThumbnailInMindmap": false,
+            "hideTitleInMindmap": false,
+            "title": "Bio video",
+            "x": 470.9333333333334,
+            "size": "small",
+            "y": -99,
             "backgroundColor": "rgba(0,0,0,0.75)",
             "videos": [
                 {
                     "centerY": "0.00",
                     "verticalAlign": "middle",
-                    "dataend": "00:40.75",
+                    "dataend": "00:28.94",
                     "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "player": false,
-                    "duration": "00:40.75",
-                    "mediaWidth": 1592,
+                    "frameRate": 0,
+                    "player": true,
+                    "mediaWidth": 1138,
                     "volume": 1,
                     "scales": true,
-                    "mediaHeight": 904,
+                    "name": "intro_biografia.mp4",
                     "autoplay": true,
-                    "loop": true,
-                    "height": "615.00",
-                    "id": "CE67CEE5-88A4-AB55-A367-3751726695BE",
-                    "width": "1083.00",
-                    "syncMaster": true,
-                    "name": "Palmanova.mp4",
+                    "loop": false,
+                    "height": "566.00",
+                    "id": "D8C140CA-7C18-3446-895D-84D15C8EDE4A",
+                    "width": "1007.00",
+                    "mediaHeight": 640,
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
                     },
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "poster": "Medias/Posters/intro_biografia.mp4.jpg",
                     "scaleMode": "zoom",
-                    "poster": "Medias/Posters/Palmanova.mp4.jpg",
+                    "duration": "00:27.77",
                     "centerX": "0.00",
                     "src": [
                         {
                             "type": "video/mp4",
-                            "src": "Medias/Videos/Palmanova.mp4"
+                            "src": "Medias/Videos/intro_biografia.mp4"
                         }
                     ],
-                    "frameRate": 0,
-                    "databegin": "00:00.00"
+                    "horizontalAlign": "center",
+                    "databegin": "00:01.17"
                 }
             ],
-            "duration": 40.751,
-            "color": "rgba(0,0,0,1)",
-            "id": "74C4CB16-62F4-4795-C4A4-37507601009F"
-        },
-        "60272FE2-9E3C-EF70-0A63-83E95AFF1F99": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Leonardo e la città",
-            "images": [
+            "duration": 27.937584911483516,
+            "color": "rgba(240,120,24,1)",
+            "id": "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F",
+            "buttons": [
                 {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "name": "imola_menu.png",
+                    "centerY": "-225.00",
+                    "dataend": "00:13.97",
+                    "type": "klynt-button-2",
+                    "zIndex": 1,
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
                     },
-                    "id": "DBCB1580-2AAE-F7A3-53CA-8495F3FEF632",
-                    "fitToWindow": true,
-                    "mediaWidth": 1240,
-                    "mediaHeight": 697,
-                    "scaleMode": "zoom",
-                    "src": "Medias/Photos/imola_menu.png",
-                    "duration": "00:31.00",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "108.72",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/play-button.png",
-                    "zIndex": 4,
-                    "id": "44A5208F-DA93-0693-F515-2DDD1C22AAAD",
-                    "mediaHeight": 1534,
-                    "transitionIn": {
+                    "transitionOut": {
                         "type": "fade",
                         "duration": "1"
                     },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1534,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-0.00",
-                    "width": "120.00",
-                    "height": "120.00",
                     "link": {
                         "hideInMindmap": false,
                         "controlDY": 0,
                         "hideArrowInMindmap": false,
                         "automaticTransition": false,
                         "controlDX": 0,
-                        "targetSequence": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
+                        "targetSequence": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
                         "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "82D87566-2798-62D1-F0E5-2DDEE7DA276F",
-                        "color": "rgba(0,0,0,1)"
+                        "transition": "flip",
+                        "id": "D2C1F19E-9403-B943-0DD7-8E6787E85DE9",
+                        "color": "rgba(240,120,24,1)"
                     },
-                    "name": "play-button.png",
-                    "databegin": "00:00.00"
+                    "scales": true,
+                    "duration": "00:07.15",
+                    "centerX": "363.07",
+                    "width": "227.13",
+                    "height": "56.78",
+                    "label": "Vinci, la città Rinascimentale",
+                    "id": "204A350C-DBCC-C946-290F-8E66CF641F99",
+                    "databegin": "00:06.82"
                 }
-            ],
-            "x": 474.08333333333337,
-            "size": "small",
-            "y": 22.300000000000004,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "-62.57",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"color: #ffcc00; font-size: 65pt; font-family: 'Droid Sans';\"><strong>Leonardo e la Citt&agrave;</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #ffcc00; font-size: 50pt; font-family: Economica;\"><strong>Le orme del genio</strong></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-0.04",
-                    "width": "1132.00",
-                    "height": "194.97",
-                    "id": "E19EA485-ED31-5C71-9E01-849BC714620A",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "shapes": [
-                {
-                    "centerY": "0.00",
-                    "dataend": "00:31.00",
-                    "type": "default",
-                    "zIndex": 1,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.7)"
-                    },
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "0.00",
-                    "width": "1000.00",
-                    "height": "400.00",
-                    "label": "leo",
-                    "id": "8B6B84F7-3BC7-D3F5-E918-849806859310",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "60272FE2-9E3C-EF70-0A63-83E95AFF1F99"
-        },
-        "550DB8E1-71A8-C3EF-E90E-8E79954C96D7": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/neapolis.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Napoli",
-            "images": [
-                {
-                    "right": "16.43",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/neapolis.jpg",
-                    "zIndex": 1,
-                    "id": "0B0FCF73-B840-4C35-00AF-9DADD4176540",
-                    "mediaHeight": 730,
-                    "verticalAlign": "middle",
-                    "top": "18.27",
-                    "horizontalAlign": "center",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1024,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "659.99",
-                    "height": "470.49",
-                    "name": "neapolis.jpg",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/neapolis__1_.jpg",
-                    "zIndex": 2,
-                    "id": "E0F12CA7-91ED-C336-6465-9DAEC0DC7C56",
-                    "mediaHeight": 381,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "height": "444.51",
-                    "horizontalAlign": "center",
-                    "bottom": "15.37",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 550,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "641.67",
-                    "left": "23.03",
-                    "name": "neapolis__1_.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": 1631.1833333333332,
-            "size": "small",
-            "y": 110.9,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "id": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7"
-        },
-        "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/cena.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "cena",
-            "images": [
-                {
-                    "centerY": "-19.33",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/cena.jpg",
-                    "zIndex": 1,
-                    "id": "48602CC2-2A26-CF21-908F-3D0E6AD74D67",
-                    "mediaHeight": 630,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 992,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-334.09",
-                    "width": "626.15",
-                    "height": "351.98",
-                    "name": "cena.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": -71.81666666666666,
-            "size": "small",
-            "y": 429.4,
-            "backgroundColor": "rgba(0,0,0,0.9)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "-214.86",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-size: 35pt;\">Titolo: <span style=\"font-family: Lato; color: #ffffff;\">Ultima cena</span></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "337.64",
-                    "width": "557.91",
-                    "height": "75.17",
-                    "id": "D30A2E31-693B-1368-1E63-3D9522169E4E",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2"
-        },
-        "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/Taranto.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Taranto",
-            "images": [
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/Taranto_1.jpg",
-                    "zIndex": 1,
-                    "id": "D4DB5A37-A3B9-CC43-C2F9-9DACBDB7CFB4",
-                    "mediaHeight": 613,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "height": "383.53",
-                    "top": "20.27",
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 768,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "480.52",
-                    "left": "26.10",
-                    "name": "Taranto_1.jpg",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "right": "15.18",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/Taranto.jpg",
-                    "zIndex": 2,
-                    "id": "336F0EA4-7D6B-8767-9A29-9DACB86CC7D7",
-                    "mediaHeight": 300,
-                    "verticalAlign": "middle",
-                    "horizontalAlign": "center",
-                    "bottom": "19.13",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 768,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "876.78",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "height": "342.50",
-                    "name": "Taranto.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": 1540.1833333333332,
-            "size": "small",
-            "y": 109.2,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "id": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8"
-        },
-        "94872949-87C3-5F06-EB6E-8528F167F49A": {
-            "hideInMindmap": false,
-            "title": "La città Contemporanea",
-            "y": 541.25,
-            "hideThumbnailInMindmap": false,
-            "id": "94872949-87C3-5F06-EB6E-8528F167F49A",
-            "hideTitleInMindmap": false,
-            "x": 984.55,
-            "size": "medium",
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)"
-        },
-        "0470597F-4614-D4C0-3022-9D128E895EF9": {
-            "hideInMindmap": false,
-            "title": "Asty",
-            "y": 47.55,
-            "hideThumbnailInMindmap": false,
-            "id": "0470597F-4614-D4C0-3022-9D128E895EF9",
-            "hideTitleInMindmap": false,
-            "x": 1381.0333333333333,
-            "size": "small",
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)"
-        },
-        "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/paracadute.png.png",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "paracadute",
-            "images": [
-                {
-                    "centerY": "0.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/paracadute.png",
-                    "zIndex": 1,
-                    "id": "36468B18-7D30-A082-5EAD-3DA4B766B11F",
-                    "mediaHeight": 593,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 644,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-305.00",
-                    "width": "666.00",
-                    "height": "613.00",
-                    "name": "paracadute.png",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": -73.31666666666666,
-            "size": "small",
-            "y": 662.1,
-            "backgroundColor": "rgba(0,0,0,0.9)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "id": "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E"
+            ]
         },
         "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843": {
             "hideInMindmap": false,
@@ -6635,2555 +7862,42 @@ klynt.data = {
                     "databegin": "00:00.00"
                 }
             ]
-        },
-        "40B5B941-DE22-8A52-1867-3D85F07EE17A": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/gioconda.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "gioconda",
-            "images": [
-                {
-                    "centerY": "0.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/gioconda.jpg",
-                    "zIndex": 1,
-                    "id": "86CEBB58-E152-E071-4DDA-3D8F444280F1",
-                    "mediaHeight": 1024,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 768,
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "centerX": "-297.00",
-                    "width": "370.00",
-                    "height": "493.00",
-                    "name": "gioconda.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": -66.51666666666665,
-            "size": "small",
-            "y": 274.8,
-            "backgroundColor": "rgba(0,0,0,0.9)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "-273.61",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-size: 35pt;\">Titolo: <span style=\"font-family: Lato; color: #ffffff;\">Gioconda</span></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "316.92",
-                    "width": "474.99",
-                    "height": "78.35",
-                    "id": "957208EB-6280-8C16-3F91-3D8FD29F49E3",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "40B5B941-DE22-8A52-1867-3D85F07EE17A"
-        },
-        "49EB144C-7E01-49DF-CFF0-8528A28BD875": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/ch6.png.png",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "L'antichità",
-            "images": [
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:41.00",
-                    "zIndex": 2,
-                    "horizontalAlign": "center",
-                    "name": "catal_huyuk.jpg",
-                    "id": "8E264285-DDD3-72CF-560B-A6AF35B95787",
-                    "fitToWindow": true,
-                    "mediaWidth": 800,
-                    "mediaHeight": 500,
-                    "scaleMode": "zoom",
-                    "src": "Medias/Photos/catal_huyuk.jpg",
-                    "duration": "00:12.57",
-                    "databegin": "00:28.43"
-                }
-            ],
-            "x": 971.0833333333334,
-            "size": "medium",
-            "y": -47.900000000000006,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "videos": [
-                {
-                    "centerY": "4.65",
-                    "verticalAlign": "middle",
-                    "dataend": "00:28.43",
-                    "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "player": true,
-                    "duration": "00:28.43",
-                    "mediaWidth": 853,
-                    "volume": 1,
-                    "scales": true,
-                    "mediaHeight": 480,
-                    "autoplay": true,
-                    "loop": false,
-                    "height": "711.39",
-                    "id": "96A37E19-D2DE-A1EA-2977-A3E945CCB9CC",
-                    "width": "1265.29",
-                    "name": "La_citta_antica___Made_with_Clipchamp__4_.mp4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scaleMode": "zoom",
-                    "poster": "Medias/Posters/La_citta_antica___Made_with_Clipchamp__4_.mp4.jpg",
-                    "centerX": "-0.61",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/La_citta_antica___Made_with_Clipchamp__4_.mp4"
-                        }
-                    ],
-                    "frameRate": 0,
-                    "databegin": "00:00.00"
-                }
-            ],
-            "duration": 40.00266582900914,
-            "color": "rgba(0,0,0,1)",
-            "id": "49EB144C-7E01-49DF-CFF0-8528A28BD875",
-            "buttons": [
-                {
-                    "right": "15.00",
-                    "dataend": "00:41.00",
-                    "type": "klynt-button-3",
-                    "zIndex": 1,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "D0BCB7FB-9401-810B-AB76-9EFD1C43B981",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "bottom": "15.00",
-                    "scales": true,
-                    "duration": "00:41.00",
-                    "width": "97.00",
-                    "height": "59.00",
-                    "label": "Back",
-                    "id": "714D1D33-93D2-9B0B-6160-9EFCD3F521CA",
-                    "databegin": "00:00.00"
-                }
-            ]
-        },
-        "72206E33-DB46-10B3-E638-3D86269E8ECE": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/ermellino.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "ermellino",
-            "images": [
-                {
-                    "centerY": "0.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/ermellino.jpg",
-                    "zIndex": 1,
-                    "id": "2825C445-E309-0196-D6E1-3D873C4497D8",
-                    "mediaHeight": 1490,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1100,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-380.00",
-                    "width": "491.00",
-                    "height": "665.00",
-                    "name": "ermellino.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": -69.01666666666665,
-            "size": "small",
-            "y": 354.1,
-            "backgroundColor": "rgba(0,0,0,0.9)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "-236.16",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-1",
-                    "text": "<p><span style=\"font-size: 35pt;\">Titolo:<span style=\"font-family: Lato; color: #ffffff;\">&nbsp;Dama con l'ermellino</span></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "261.84",
-                    "width": "649.35",
-                    "height": "75.17",
-                    "id": "A5C83DE7-3C87-F37B-D217-3D8849736F25",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "72206E33-DB46-10B3-E638-3D86269E8ECE"
-        },
-        "F2EE2068-9907-BC2B-2375-83DAB62365F0": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Scelta percorso",
-            "images": [
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "zIndex": 2,
-                    "horizontalAlign": "center",
-                    "name": "wall-Recovered.png",
-                    "id": "B3167FD2-DCE9-785F-5897-8E4B3ECEE5DC",
-                    "fitToWindow": true,
-                    "mediaWidth": 1240,
-                    "mediaHeight": 775,
-                    "scaleMode": "zoom",
-                    "src": "Medias/Photos/wall-Recovered.png",
-                    "duration": "00:31.00",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "zIndex": 3,
-                    "horizontalAlign": "center",
-                    "name": "citywall.png",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "id": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
-                    "fitToWindow": true,
-                    "mediaWidth": 1240,
-                    "mediaHeight": 697,
-                    "scaleMode": "zoom",
-                    "src": "Medias/Photos/citywall.png",
-                    "style": {
-                        "opacity": 0
-                    },
-                    "duration": "00:31.00",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "zIndex": 4,
-                    "horizontalAlign": "center",
-                    "name": "sfondo-leo.jpg",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "id": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
-                    "fitToWindow": true,
-                    "mediaWidth": 1280,
-                    "mediaHeight": 720,
-                    "scaleMode": "zoom",
-                    "src": "Medias/Photos/sfondo-leo.jpg",
-                    "style": {
-                        "opacity": 0
-                    },
-                    "duration": "00:30.95",
-                    "databegin": "00:00.05"
-                },
-                {
-                    "centerY": "-27.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/leonardo_sfondo-imola_bubble.png",
-                    "zIndex": 5,
-                    "id": "DC3BF3D7-5A15-B5AD-0FD1-83DAC17C02E5",
-                    "mediaHeight": 550,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 550,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "400.00",
-                    "width": "430.00",
-                    "height": "430.00",
-                    "click": [
-                        {
-                            "value": "1",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToFront",
-                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToBack",
-                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
-                        },
-                        {
-                            "value": "0.4",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        }
-                    ],
-                    "name": "leonardo_sfondo-imola_bubble.png",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "-27.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/leonardo_sfondo-leoface.png",
-                    "zIndex": 6,
-                    "id": "05C1EE28-6763-E47F-BFBA-83DAC223AFF8",
-                    "mediaHeight": 551,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 550,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-400.00",
-                    "width": "430.00",
-                    "height": "430.00",
-                    "click": [
-                        {
-                            "value": "1",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0.5",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToFront",
-                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToBack",
-                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        }
-                    ],
-                    "name": "leonardo_sfondo-leoface.png",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": 476.0333333333333,
-            "size": "small",
-            "y": 130.85,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "218.00",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\"><span style=\"color: #ffcc00;\"><em><strong><span style=\"font-size: 35pt; font-family: Simonetta;\">Leonardo e</span></strong></em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 25pt; font-family: 'Stardos Stencil';\"><span style=\"color: #ffcc00;\"><em><strong><span style=\"font-size: 35pt; font-family: Simonetta;\">il suo Genio</span></strong></em></span><br /></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-400.00",
-                    "width": "315.00",
-                    "height": "122.00",
-                    "click": [
-                        {
-                            "value": "0.5",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "DC3BF3D7-5A15-B5AD-0FD1-83DAC17C02E5",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "9E79B714-AB7D-A9BA-AE07-84B1E55FEC2E",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "EC57F856-136E-424A-0994-84B0182F4B61",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        }
-                    ],
-                    "id": "A56A4322-B164-EE6D-E198-84B0E894EB5A",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "218.00",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\"><em><span style=\"font-family: Simonetta; color: #ffcc00;\"><strong><span style=\"font-size: 35pt;\">La Citt&agrave; e<br /></span></strong></span></em></p>\n<p style=\"text-align: center;\"><em><span style=\"font-family: Simonetta; color: #ffcc00;\"><strong><span style=\"font-size: 35pt;\">i suoi Modelli</span></strong></span></em></p>",
-                    "name": "Text 2",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "zIndex": 10,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "400.00",
-                    "width": "301.00",
-                    "height": "124.00",
-                    "click": [
-                        {
-                            "value": "1",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToFront",
-                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToBack",
-                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
-                        },
-                        {
-                            "value": "0.4",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        }
-                    ],
-                    "id": "9E79B714-AB7D-A9BA-AE07-84B1E55FEC2E",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "shapes": [
-                {
-                    "centerY": "218.00",
-                    "dataend": "00:31.00",
-                    "click": [
-                        {
-                            "value": "1",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToFront",
-                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToBack",
-                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
-                        },
-                        {
-                            "value": "0.5",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        }
-                    ],
-                    "type": "default",
-                    "zIndex": 7,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.9)"
-                    },
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-400.00",
-                    "width": "316.00",
-                    "height": "151.00",
-                    "label": "Hotspot 1",
-                    "id": "A3B4F2F0-333B-1974-11C4-84AFE831E05D",
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "218.00",
-                    "dataend": "00:31.00",
-                    "click": [
-                        {
-                            "value": "1",
-                            "easing": "linear",
-                            "type": "style",
-                            "duration": 0.5,
-                            "target": "self",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToFront",
-                            "target": "C7B85B10-358B-157B-2E89-2DED728DD01B"
-                        },
-                        {
-                            "reversible": false,
-                            "delay": 0,
-                            "type": "layout",
-                            "name": "bringToBack",
-                            "target": "9F3A1519-8FBC-C381-2B8F-2DED1200F099"
-                        },
-                        {
-                            "value": "0.4",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "A0CC0743-613D-93B9-C2C2-8E5905A20AEB",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        },
-                        {
-                            "value": "0",
-                            "easing": "easeInOutSine",
-                            "type": "style",
-                            "duration": 1,
-                            "target": "D25B2B03-E660-5A6F-0F8A-2E3A11A3E2FC",
-                            "reversible": false,
-                            "delay": 0,
-                            "name": "opacity"
-                        }
-                    ],
-                    "type": "default",
-                    "zIndex": 8,
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "style": {
-                        "backgroundColor": "rgba(0,0,0,0.9)"
-                    },
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "400.00",
-                    "width": "314.00",
-                    "height": "153.00",
-                    "label": "Hotspot 2",
-                    "id": "EC57F856-136E-424A-0994-84B0182F4B61",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
-            "buttons": [
-                {
-                    "centerY": "-25.01",
-                    "dataend": "00:31.00",
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
-                        "linkType": "linkToSequence",
-                        "transition": "slideRight",
-                        "id": "05081996-66F0-F115-4AE1-2DEF56306467",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "type": "klynt-arrow-left",
-                    "zIndex": 0,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "2"
-                    },
-                    "style": {
-                        "rotation": -2.5444437451708134e-14
-                    },
-                    "scales": true,
-                    "duration": "00:30.95",
-                    "centerX": "16.01",
-                    "width": "125.00",
-                    "height": "125.00",
-                    "label": "",
-                    "id": "C7B85B10-358B-157B-2E89-2DED728DD01B",
-                    "databegin": "00:00.05"
-                },
-                {
-                    "centerY": "-25.20",
-                    "dataend": "00:31.00",
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "87E70905-ECC5-BBBA-661E-8D3EE0E023A2",
-                        "linkType": "linkToSequence",
-                        "transition": "slideLeft",
-                        "id": "684F3E97-7EF9-98F6-4E24-2DEF8AF3F107",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "type": "klynt-arrow-right",
-                    "zIndex": 1,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "2"
-                    },
-                    "style": {
-                        "rotation": -8.438205933619301e-7
-                    },
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "15.95",
-                    "width": "125.00",
-                    "height": "125.00",
-                    "label": "",
-                    "id": "9F3A1519-8FBC-C381-2B8F-2DED1200F099",
-                    "databegin": "00:00.00"
-                }
-            ]
-        },
-        "64A33728-D7F8-85AA-4409-3D8D15AB69B7": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/salvator.jpg.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "gesù",
-            "images": [
-                {
-                    "centerY": "-0.16",
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "src": "Medias/Photos/salvator.jpg",
-                    "zIndex": 1,
-                    "id": "8AEB7EFD-1E03-4802-7419-3D8D6B77BE99",
-                    "mediaHeight": 923,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 630,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "-382.50",
-                    "width": "447.16",
-                    "height": "654.79",
-                    "name": "salvator.jpg",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": -63.91666666666666,
-            "size": "small",
-            "y": 199.7,
-            "backgroundColor": "rgba(0,0,0,0.9)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "-250.72",
-                    "dataend": "00:31.00",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"font-size: 35pt;\"><span style=\"font-family: 'Abril Fatface'; color: #ffcc00;\">Titolo:</span> Salvator mundi</span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "centerX": "269.05",
-                    "width": "508.05",
-                    "height": "99.96",
-                    "id": "FD192DAC-5FC7-B66E-2858-3D8E1B25D968",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "64A33728-D7F8-85AA-4409-3D8D15AB69B7"
-        },
-        "FD372935-188B-DF55-6453-8E7BABE1731A": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/wall-Recovered.png.png",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Leo in FVG",
-            "images": [
-                {
-                    "verticalAlign": "middle",
-                    "dataend": "00:31.00",
-                    "zIndex": 1,
-                    "horizontalAlign": "center",
-                    "name": "wall-Recovered.png",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "id": "F7A42D78-B509-9E1F-8C69-8E9E0E95E3D1",
-                    "fitToWindow": true,
-                    "mediaWidth": 1240,
-                    "mediaHeight": 775,
-                    "scaleMode": "zoom",
-                    "src": "Medias/Photos/wall-Recovered.png",
-                    "duration": "00:31.00",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": 555.1,
-            "size": "medium",
-            "y": 457.85,
-            "backgroundColor": "rgba(0,0,0,1)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "right": "258.00",
-                    "dataend": "00:31.00",
-                    "left": "35.00",
-                    "type": "txt-Title-1",
-                    "text": "<p>Le impronte del genio nel nostro territorio</p>",
-                    "name": "Text 2",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 4,
-                    "top": "21.00",
-                    "scales": false,
-                    "duration": "00:31.00",
-                    "height": "60.00",
-                    "id": "D548A33B-60B1-1B02-D1D6-2EA040C6854E",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "id": "FD372935-188B-DF55-6453-8E7BABE1731A",
-            "buttons": [
-                {
-                    "right": "20.00",
-                    "dataend": "00:31.00",
-                    "type": "klynt-button-4",
-                    "zIndex": 3,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "891326D8-B963-CAE3-B742-2EA01B349C7D",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "bottom": "20.00",
-                    "scales": true,
-                    "duration": "00:31.00",
-                    "width": "120.00",
-                    "height": "60.00",
-                    "label": "Home",
-                    "id": "E322C6B8-59A5-D033-646C-2EA01B34AD3D",
-                    "databegin": "00:00.00"
-                }
-            ]
-        },
-        "8A933EC8-9D7C-37BD-B8B1-852972D9DD65": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/Citta_Rinascimentale___Made_with_Clipchamp.mp4.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "La città Rinascimentale",
-            "images": [
-                {
-                    "centerY": "227.21",
-                    "verticalAlign": "middle",
-                    "dataend": "00:18.09",
-                    "src": "Medias/Photos/play-button.png",
-                    "zIndex": 4,
-                    "id": "AF4B1778-2B55-AA16-16B2-375A1B12346A",
-                    "mediaHeight": 1534,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "0.5"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "0.5"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "74C4CB16-62F4-4795-C4A4-37507601009F",
-                        "linkType": "linkToSequence",
-                        "transition": "pop",
-                        "id": "122036EB-7886-5A2B-F92B-375E206B3537",
-                        "color": "rgba(0,0,0,1)"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1534,
-                    "scales": true,
-                    "duration": "00:02.96",
-                    "centerX": "357.19",
-                    "width": "50.00",
-                    "height": "50.00",
-                    "style": {
-                        "opacity": 0.7
-                    },
-                    "name": "play-button.png",
-                    "databegin": "00:15.13"
-                }
-            ],
-            "x": 982.05,
-            "size": "medium",
-            "y": 380.3,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "videos": [
-                {
-                    "centerY": "-7.39",
-                    "verticalAlign": "middle",
-                    "dataend": "00:57.73",
-                    "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "player": true,
-                    "duration": "00:57.73",
-                    "mediaWidth": 853,
-                    "volume": 1,
-                    "scales": true,
-                    "mediaHeight": 480,
-                    "autoplay": true,
-                    "loop": false,
-                    "height": "681.30",
-                    "id": "6EEF4D70-87A4-B61A-18C7-1F3AD1651FEE",
-                    "width": "1211.81",
-                    "syncMaster": true,
-                    "name": "Citta_Rinascimentale___Made_with_Clipchamp.mp4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scaleMode": "zoom",
-                    "poster": "Medias/Posters/Citta_Rinascimentale___Made_with_Clipchamp.mp4.jpg",
-                    "centerX": "1.11",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/Citta_Rinascimentale___Made_with_Clipchamp.mp4"
-                        }
-                    ],
-                    "frameRate": 0,
-                    "databegin": "00:00.00"
-                },
-                {
-                    "centerY": "227.49",
-                    "verticalAlign": "middle",
-                    "dataend": "00:18.09",
-                    "zIndex": 3,
-                    "horizontalAlign": "center",
-                    "player": false,
-                    "duration": "00:02.96",
-                    "mediaWidth": 1592,
-                    "volume": 1,
-                    "scales": true,
-                    "mediaHeight": 904,
-                    "autoplay": true,
-                    "loop": true,
-                    "height": "92.54",
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "CBA27A11-E42A-CEA7-F5BC-375E95A8139E",
-                        "targetSequence": "74C4CB16-62F4-4795-C4A4-37507601009F",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(0,0,0,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "id": "30561B78-C3AA-B6D4-0F66-37587BC5BC23",
-                    "width": "164.60",
-                    "name": "Palmanova.mp4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "0.5"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "0.5"
-                    },
-                    "scaleMode": "zoom",
-                    "poster": "Medias/Posters/Palmanova.mp4.jpg",
-                    "centerX": "357.73",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/Palmanova.mp4"
-                        }
-                    ],
-                    "frameRate": 0,
-                    "databegin": "00:15.13"
-                }
-            ],
-            "duration": 57.733,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "289.13",
-                    "dataend": "00:18.09",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 25pt; color: #000000; font-family: 'Droid Sans';\">Un esempio spesso citato &egrave; <strong>Palmanova</strong></span></p>",
-                    "name": "palmanova",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "9F10F71B-531E-7CA9-CAB0-3753D48D3B9E",
-                        "targetSequence": "74C4CB16-62F4-4795-C4A4-37507601009F",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(0,0,0,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "scales": true,
-                    "duration": "00:02.96",
-                    "centerX": "23.42",
-                    "width": "616.77",
-                    "height": "50.69",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.5)"
-                    },
-                    "id": "33FBE590-690D-4087-9928-1F4869E16E35",
-                    "databegin": "00:15.13"
-                },
-                {
-                    "centerY": "307.17",
-                    "dataend": "00:32.18",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><em><span style=\"color: #000000; font-size: 20pt; font-family: Lato;\">Palmanova, Friuli Venezia-Giulia, Italia</span></em></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:05.70",
-                    "centerX": "353.88",
-                    "width": "496.29",
-                    "height": "44.30",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "F8658251-9CFC-9710-9151-230C6D2DF582",
-                    "databegin": "00:26.48"
-                },
-                {
-                    "centerY": "-217.85",
-                    "dataend": "00:15.85",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: right;\"><span style=\"font-family: 'Droid Sans';\"><span style=\"color: #000000; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">... il punto principale prevede che la citt&agrave;&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 39px; font-size: 33px;\">venga sviluppata con <strong>schema radiale</strong> a s<strong>immetria centrale</strong></span></span></p>",
-                    "name": "palazzi signorili",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:06.58",
-                    "centerX": "78.44",
-                    "width": "1009.83",
-                    "height": "110.79",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.5)"
-                    },
-                    "id": "1FBC6CDE-1BCE-D8CB-5004-1F46C7CAB8CF",
-                    "databegin": "00:09.27"
-                },
-                {
-                    "centerY": "301.17",
-                    "dataend": "00:23.78",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 20pt;\"><em><span style=\"color: #000000; font-family: Lato;\">Ferrara, Emilia-Romagna, Italia</span></em></span></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 5,
-                    "scales": true,
-                    "duration": "00:03.58",
-                    "centerX": "405.92",
-                    "width": "398.28",
-                    "height": "58.09",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "C496FC66-A5EA-6942-803E-230B52D22E5B",
-                    "databegin": "00:20.20"
-                },
-                {
-                    "centerY": "-312.05",
-                    "dataend": "00:15.85",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: right;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Durante il Rinascimento vennero elaborate diverse teorie sulla citt&agrave; ideale...&nbsp;</span></span></p>",
-                    "name": "palazzi signorili",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": true,
-                    "duration": "00:10.71",
-                    "centerX": "30.90",
-                    "width": "1104.93",
-                    "height": "60.09",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.5)"
-                    },
-                    "id": "9A9A205D-DC40-6E50-E395-1F45383DDE18",
-                    "databegin": "00:05.14"
-                },
-                {
-                    "centerY": "-244.86",
-                    "dataend": "00:56.68",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: right;\"><span style=\"font-family: Lato;\"><span style=\"color: #000000; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">La struttura urbana si arricchisce anche di <strong>nuove tipologie edilizie</strong>,&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 39px; font-size: 33px;\">ed in particolare dei <strong>palazzi signorili</strong>, ma anche degli <strong>ospedali</strong></span></span></p>",
-                    "name": "palazzi signorili",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": true,
-                    "duration": "00:12.25",
-                    "centerX": "79.69",
-                    "width": "1041.02",
-                    "height": "116.42",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.5)"
-                    },
-                    "id": "6087DE13-64D2-3189-561F-1F3F14FC820E",
-                    "databegin": "00:44.43"
-                },
-                {
-                    "centerY": "-252.14",
-                    "dataend": "00:32.18",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: right;\"><span style=\"font-family: Lato;\"><span style=\"color: #000000; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">La <strong>nuova concezione</strong> degli spazi pubblici porta&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 39px; font-size: 33px;\">alla realizzazione di <strong>nuove piazze</strong>,&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 39px; font-size: 33px;\">caratterizzate da un <strong>disegno unitario</strong> e da <strong>simmetria</strong></span></span></p>",
-                    "name": "nuove piazze",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": true,
-                    "duration": "00:07.22",
-                    "centerX": "128.59",
-                    "width": "933.49",
-                    "height": "161.48",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.5)"
-                    },
-                    "id": "A16DE043-A40C-5965-1BAA-1F412E9760CE",
-                    "databegin": "00:24.96"
-                },
-                {
-                    "centerY": "-280.75",
-                    "dataend": "00:23.78",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: left;\"><span style=\"font-family: 'Droid Sans';\"><span style=\"color: #000000; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Numerosi sono gli interventi di rettificazione&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 39px; font-size: 33px;\">e ampliamento delle strade esistenti</span></span></p>",
-                    "name": "rettificazione",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": true,
-                    "duration": "00:04.55",
-                    "centerX": "-168.43",
-                    "width": "855.24",
-                    "height": "116.42",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.5)"
-                    },
-                    "id": "05668C3F-F9C3-7038-A0D3-1F434B4EE6C1",
-                    "databegin": "00:19.23"
-                },
-                {
-                    "centerY": "229.27",
-                    "dataend": "00:42.48",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: left;\"><span style=\"font-family: Lato;\"><span style=\"font-size: 25pt; color: #000000;\">Contemporaneamente migliorano gli standard&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 39px; font-size: 33px;\"><strong>funzionali ed igienici</strong> della citt&agrave; con la realizzazione di <strong>acquedotti e canali&nbsp;</strong></span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 39px; font-size: 33px;\">e la realizzazione di &nbsp;<strong>avimentazioni</strong> lapidee per le <strong>strade</strong></span></span></p>",
-                    "name": "acquedotto",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 6,
-                    "scales": true,
-                    "duration": "00:09.41",
-                    "centerX": "-42.47",
-                    "width": "1102.41",
-                    "height": "190.30",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.5)"
-                    },
-                    "id": "BA14F758-3DFE-04D7-69F1-1F3C4CC448DA",
-                    "databegin": "00:33.07"
-                }
-            ],
-            "id": "8A933EC8-9D7C-37BD-B8B1-852972D9DD65"
-        },
-        "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/intro_biografia.mp4.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Bio video",
-            "x": 470.9333333333334,
-            "size": "small",
-            "y": -99,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "videos": [
-                {
-                    "centerY": "0.00",
-                    "verticalAlign": "middle",
-                    "dataend": "00:28.94",
-                    "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "player": true,
-                    "duration": "00:27.77",
-                    "mediaWidth": 1138,
-                    "volume": 1,
-                    "scales": true,
-                    "mediaHeight": 640,
-                    "autoplay": true,
-                    "loop": false,
-                    "height": "566.00",
-                    "id": "D8C140CA-7C18-3446-895D-84D15C8EDE4A",
-                    "width": "1007.00",
-                    "name": "intro_biografia.mp4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scaleMode": "zoom",
-                    "poster": "Medias/Posters/intro_biografia.mp4.jpg",
-                    "centerX": "0.00",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/intro_biografia.mp4"
-                        }
-                    ],
-                    "frameRate": 0,
-                    "databegin": "00:01.17"
-                }
-            ],
-            "duration": 27.937584911483516,
-            "color": "rgba(240,120,24,1)",
-            "id": "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F",
-            "buttons": [
-                {
-                    "centerY": "-225.00",
-                    "dataend": "00:13.97",
-                    "type": "klynt-button-2",
-                    "zIndex": 1,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
-                        "linkType": "linkToSequence",
-                        "transition": "flip",
-                        "id": "D2C1F19E-9403-B943-0DD7-8E6787E85DE9",
-                        "color": "rgba(240,120,24,1)"
-                    },
-                    "scales": true,
-                    "duration": "00:07.15",
-                    "centerX": "363.07",
-                    "width": "227.13",
-                    "height": "56.78",
-                    "label": "Vinci, la città Rinascimentale",
-                    "id": "204A350C-DBCC-C946-290F-8E66CF641F99",
-                    "databegin": "00:06.82"
-                }
-            ]
-        },
-        "60B0D847-A8A5-0E06-2FC6-8528EB355993": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/Citta_Romana___Made_with_Clipchamp.mp4.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "La città Romana",
-            "x": 975.95,
-            "size": "medium",
-            "y": 240.45,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "videos": [
-                {
-                    "centerY": "0.00",
-                    "verticalAlign": "middle",
-                    "dataend": "01:10.83",
-                    "zIndex": 0,
-                    "horizontalAlign": "center",
-                    "player": true,
-                    "duration": "01:10.83",
-                    "mediaWidth": 853,
-                    "volume": 1,
-                    "scales": true,
-                    "mediaHeight": 480,
-                    "autoplay": true,
-                    "loop": false,
-                    "height": "707.00",
-                    "id": "DE64FAF0-F114-4952-15CD-2EF1EF5620BD",
-                    "width": "1257.00",
-                    "syncMaster": true,
-                    "name": "Citta_Romana_1___Made_with_Clipchamp.mp4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scaleMode": "zoom",
-                    "poster": "Medias/Posters/Citta_Romana_1___Made_with_Clipchamp.mp4.jpg",
-                    "centerX": "0.00",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/Citta_Romana_1___Made_with_Clipchamp.mp4"
-                        }
-                    ],
-                    "frameRate": 0,
-                    "databegin": "00:00.00"
-                }
-            ],
-            "duration": 70.833,
-            "color": "rgba(0,0,0,1)",
-            "texts": [
-                {
-                    "centerY": "312.69",
-                    "dataend": "00:52.88",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">L'incrocio degli <strong>assi principali</strong> <strong>non</strong>&nbsp;era sempre il <strong>centro geometrico della citt&agrave;</strong></span></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:08.80",
-                    "centerX": "1.87",
-                    "width": "1215.27",
-                    "height": "51.71",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "9CC4DAE1-3DF6-8507-9A87-22E8BEBBACF0",
-                    "databegin": "00:44.08"
-                },
-                {
-                    "centerY": "347.22",
-                    "dataend": "00:28.06",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #330000;\">Pianta della Torino romana</span></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:05.00",
-                    "centerX": "237.85",
-                    "width": "438.21",
-                    "height": "59.91",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.7)"
-                    },
-                    "id": "5E976DC2-FEF9-BB72-5E4B-22EE23466D2C",
-                    "databegin": "00:23.06"
-                },
-                {
-                    "centerY": "289.57",
-                    "dataend": "00:19.73",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">Infatti vennero fondate molte <strong>colonie&nbsp;</strong></span><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">sia nel periodo imperiale che repubblicano&nbsp;</span></p>",
-                    "name": "Text 3",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:07.41",
-                    "centerX": "-114.78",
-                    "width": "980.33",
-                    "height": "108.94",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "C5BAAAA6-2812-4E02-A03E-22CDC7103C1A",
-                    "databegin": "00:12.32"
-                },
-                {
-                    "centerY": "-270.99",
-                    "dataend": "00:08.72",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-size: 25pt; font-family: 'Droid Sans'; color: #000000;\">L'urbanistica <strong>romana</strong> fu l'erede degli <strong>schemi ortogonali</strong> di origine greca</span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:04.73",
-                    "centerX": "55.54",
-                    "width": "1102.74",
-                    "height": "58.09",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "A07E5D2F-434F-B89D-B036-22C8B53BBE14",
-                    "databegin": "00:03.99"
-                },
-                {
-                    "centerY": "289.57",
-                    "dataend": "00:39.58",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: right;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Nel foro si svolgevano le riunioni politiche, veniva amministrata la giustizia,&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">si esercitava il commercio e si svolgevano le cerimonie religiose</span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:07.89",
-                    "centerX": "48.81",
-                    "width": "1160.81",
-                    "height": "112.57",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "80D4B7B3-74DF-B9A2-1BCB-22E1CEF02B15",
-                    "databegin": "00:31.69"
-                },
-                {
-                    "centerY": "317.97",
-                    "dataend": "01:02.97",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">Como, Lombardia, Italia</span></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:02.73",
-                    "centerX": "442.69",
-                    "width": "384.00",
-                    "height": "60.00",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "4D5E5F10-0E6F-A0AA-5F44-22F1B5012CDB",
-                    "databegin": "01:00.24"
-                },
-                {
-                    "centerY": "-282.64",
-                    "dataend": "00:19.73",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: right;\"><span style=\"color: #000000; font-family: 'Droid Sans'; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Questa trov&ograve; attuazione nella fondazione di molti <strong>nuovi centri&nbsp;</strong></span></span><strong><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">urbani&nbsp;</span></strong><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">sia nella <strong>penisola</strong> sia nelle <strong>province</strong></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:09.89",
-                    "centerX": "67.50",
-                    "width": "1115.87",
-                    "height": "114.39",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "B65619A0-FF33-3A6C-B329-22CAE1FBAAFB",
-                    "databegin": "00:09.84"
-                },
-                {
-                    "centerY": "318.00",
-                    "dataend": "01:09.88",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">Trento, Trentino Alto-Adige, Italia</span></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:02.99",
-                    "centerX": "379.00",
-                    "width": "513.00",
-                    "height": "60.00",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "04113DB2-710C-1CDB-98D1-22F6808D30F5",
-                    "databegin": "01:06.89"
-                },
-                {
-                    "centerY": "-258.63",
-                    "dataend": "00:28.87",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: #000000;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Lo schema generale &egrave; basato su <strong>due assi perpendicolari</strong>:</span></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\">&nbsp;</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">il <strong>cardo</strong> massimo e il <strong>decumano</strong> massimo,&nbsp;</span></span><span class=\"Apple-style-span\" style=\"font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">al loro incrocio sorgeva il <strong>foro</strong></span></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:07.88",
-                    "centerX": "2.86",
-                    "width": "888.49",
-                    "height": "156.14",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "1C5D2D09-60FD-6E10-6AC6-22D630A3E2AA",
-                    "databegin": "00:20.99"
-                },
-                {
-                    "centerY": "-294.36",
-                    "dataend": "00:52.15",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Droid Sans'; font-size: 25pt;\"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">La forma della citt&agrave; era generalmente <strong>quadrangolare</strong>,&nbsp;</span></span><span class=\"Apple-style-span\" style=\"font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">dando cos&igrave; origine a schemi quasi <strong>mai completamente simmetrici</strong></span></span></p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:10.74",
-                    "centerX": "9.14",
-                    "width": "1215.27",
-                    "height": "95.84",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "6C0DA74D-1323-0103-D382-22E71CABDFF3",
-                    "databegin": "00:41.41"
-                },
-                {
-                    "centerY": "318.00",
-                    "dataend": "01:06.37",
-                    "type": "txt-Title-2",
-                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 25pt; font-family: 'Droid Sans';\">Verona, Veneto, Italia</span></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:02.89",
-                    "centerX": "462.00",
-                    "width": "340.00",
-                    "height": "60.00",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.5)"
-                    },
-                    "id": "00208209-6166-5912-B664-22F310B79CFB",
-                    "databegin": "01:03.48"
-                },
-                {
-                    "centerY": "-297.49",
-                    "dataend": "00:59.26",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center; \"><span style=\"font-family: 'Droid Sans'; font-size: 25pt; color: rgb(0, 0, 0); \"><span class=\"Apple-style-span\" style=\"line-height: 39px;\">Lo schema di questo <strong>impianto ortogonale</strong> &egrave; ancora riconoscibile&nbsp;</span></span><span class=\"Apple-style-span\" style=\"color: #000000; font-family: 'Droid Sans'; line-height: 39px; font-size: 33px;\">in numerosi centri urbani come <strong>Firenze</strong></span></p>\n<p style=\"text-align: center; \">&nbsp;</p>",
-                    "name": "Text 1",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:05.29",
-                    "centerX": "9.14",
-                    "width": "1215.27",
-                    "height": "89.58",
-                    "style": {
-                        "backgroundColor": "rgba(255,204,0,0.7)"
-                    },
-                    "id": "5075214E-12AF-0017-AF13-22F02F4BE144",
-                    "databegin": "00:53.97"
-                }
-            ],
-            "id": "60B0D847-A8A5-0E06-2FC6-8528EB355993"
-        },
-        "A1664808-B10A-FDF1-39F2-8E7998F0FC7C": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/ippodamo.png.png",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "Ippodamo",
-            "images": [
-                {
-                    "centerY": "-106.01",
-                    "verticalAlign": "middle",
-                    "dataend": "00:42.10",
-                    "src": "Medias/Photos/ippodamo.png",
-                    "zIndex": 1,
-                    "id": "A991566F-4513-2E24-1923-9DB5FC973E5D",
-                    "mediaHeight": 645,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 1143,
-                    "scales": true,
-                    "duration": "00:42.10",
-                    "centerX": "204.89",
-                    "width": "776.49",
-                    "height": "438.20",
-                    "name": "ippodamo.png",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "x": 1380.1333333333332,
-            "size": "small",
-            "y": 107.75,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "videos": [
-                {
-                    "centerY": "98.09",
-                    "verticalAlign": "bottom",
-                    "dataend": "00:41.10",
-                    "zIndex": 2,
-                    "horizontalAlign": "right",
-                    "player": false,
-                    "duration": "00:41.10",
-                    "mediaWidth": 1584,
-                    "volume": 1,
-                    "scales": true,
-                    "mediaHeight": 912,
-                    "autoplay": true,
-                    "loop": true,
-                    "height": "432.66",
-                    "id": "DF82277D-40F3-2F91-664F-9DDABBCD0737",
-                    "width": "776.37",
-                    "syncMaster": true,
-                    "name": "Mileto.mp4",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "scaleMode": "zoom",
-                    "poster": "Medias/Posters/Mileto.mp4.jpg",
-                    "centerX": "-188.13",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/Mileto.mp4"
-                        }
-                    ],
-                    "frameRate": 0,
-                    "databegin": "00:00.00"
-                }
-            ],
-            "duration": 41.099,
-            "color": "rgba(0,0,0,1)",
-            "id": "A1664808-B10A-FDF1-39F2-8E7998F0FC7C"
-        },
-        "9B20A371-8B9D-51D7-7831-9D1287E1B1FD": {
-            "hideInMindmap": false,
-            "title": "Acropoli",
-            "y": 47.10000000000001,
-            "hideThumbnailInMindmap": false,
-            "id": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
-            "hideTitleInMindmap": false,
-            "x": 1300.0333333333333,
-            "size": "small",
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "duration": 30,
-            "color": "rgba(0,0,0,1)"
-        },
-        "C62F4C80-1142-70B2-6C1E-9CE787C67A54": {
-            "hideInMindmap": false,
-            "thumbnail": "Medias/Thumbnails/la_citta_greca___Made_with_Clipchamp.mp4.jpg",
-            "hideThumbnailInMindmap": false,
-            "hideTitleInMindmap": false,
-            "title": "video polis",
-            "x": 1169.3333333333333,
-            "size": "small",
-            "y": 100.05,
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "videos": [
-                {
-                    "autoplay": true,
-                    "verticalAlign": "middle",
-                    "dataend": "00:34.93",
-                    "src": [
-                        {
-                            "type": "video/mp4",
-                            "src": "Medias/Videos/la_citta_greca___Made_with_Clipchamp.mp4"
-                        }
-                    ],
-                    "zIndex": 0,
-                    "frameRate": 0,
-                    "poster": "Medias/Posters/la_citta_greca___Made_with_Clipchamp.mp4.jpg",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "loop": false,
-                    "id": "FB699F45-85D5-AD9D-4EE1-9D23ACC60214",
-                    "mediaHeight": 480,
-                    "fitToWindow": true,
-                    "syncMaster": true,
-                    "volume": 1,
-                    "duration": "00:34.93",
-                    "player": true,
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaWidth": 853,
-                    "name": "la_citta_greca___Made_with_Clipchamp.mp4",
-                    "databegin": "00:00.00"
-                }
-            ],
-            "duration": 34.933,
-            "color": "rgba(240,120,24,1)",
-            "texts": [
-                {
-                    "centerY": "-193.55",
-                    "dataend": "00:05.73",
-                    "type": "txt-Title-2",
-                    "text": "<p><span style=\"color: #000000; font-size: 35pt; font-family: Quicksand;\">Si basa sulla tripartizione</span></p>",
-                    "name": "si basa sulla tripartizione",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "0.5"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "0.5"
-                    },
-                    "zIndex": 1,
-                    "scales": true,
-                    "duration": "00:02.83",
-                    "centerX": "-232.46",
-                    "width": "597.11",
-                    "height": "55.00",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "92C2FA4E-31AE-CB28-FB35-9CEE6B38FE58",
-                    "databegin": "00:02.90"
-                },
-                {
-                    "centerY": "-254.02",
-                    "dataend": "00:05.73",
-                    "type": "txt-Title-2",
-                    "text": "<p><span style=\"font-family: Lato;\"><span style=\"color: #000000; font-size: 35pt; font-family: Quicksand;\">La sua struttura</span><br /></span></p>",
-                    "name": "la sua struttura",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "0.5"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "0.5"
-                    },
-                    "zIndex": 2,
-                    "scales": true,
-                    "duration": "00:03.33",
-                    "centerX": "-389.19",
-                    "width": "381.37",
-                    "height": "55.00",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "38C59075-8864-3108-88DF-9CEBF5CC1188",
-                    "databegin": "00:02.40"
-                },
-                {
-                    "centerY": "-225.61",
-                    "dataend": "00:17.51",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"font-size: 36pt; color: #000000; font-family: Quicksand;\">Un esempio reale</span></p>\n<p><span style=\"font-size: 36pt; color: #000000; font-family: Quicksand;\">ci &egrave; dato di resti</span></p>\n<p><span style=\"font-family: Quicksand;\"><span style=\"font-size: 36pt; color: #000000;\">della polis&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 57px; font-size: 48px;\">di <span style=\"text-decoration: underline;\"><em><span style=\"color: #660000; text-decoration: underline;\">Atene</span></em></span></span></span></p>",
-                    "name": "Text 4",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "0.4"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "0.2"
-                    },
-                    "zIndex": 3,
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "87B3FB59-6A14-156F-E800-9D13D81F90B1",
-                        "targetSequence": "10BC9413-5F6B-F19E-41B7-9D129AA08A57",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "flip",
-                        "color": "rgba(240,120,24,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "scales": true,
-                    "duration": "00:03.82",
-                    "centerX": "336.16",
-                    "width": "488.33",
-                    "height": "181.68",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "EA0ECE05-7E2D-E5FD-30AB-9D0346B8C109",
-                    "databegin": "00:13.69"
-                },
-                {
-                    "centerY": "-248.12",
-                    "dataend": "00:24.08",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">Lo schema tripartito</span></p>\n<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">&egrave; un'invenzione di</span></p>\n<p><span style=\"text-decoration: underline; color: #660000;\"><span style=\"font-family: Quicksand;\"><span style=\"font-size: 30pt; text-decoration: underline;\">Ippodamo&nbsp;</span><span class=\"Apple-style-span\" style=\"line-height: 48px; font-size: 40px; text-decoration: underline;\">da Mileto</span></span></span></p>",
-                    "name": "Text 6",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 7,
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "A10EAF79-C34A-05AF-A004-9DB3CEDC7AA7",
-                        "targetSequence": "A1664808-B10A-FDF1-39F2-8E7998F0FC7C",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(0,0,0,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "scales": true,
-                    "duration": "00:05.69",
-                    "centerX": "-388.73",
-                    "width": "430.74",
-                    "height": "149.19",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "F586E31D-68FE-1908-C8B2-9D54C20B48C9",
-                    "databegin": "00:18.39"
-                },
-                {
-                    "centerY": "-6.80",
-                    "dataend": "00:24.08",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">Il primo vero <strong>Urbanista</strong></span></p>",
-                    "name": "Text 7",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 8,
-                    "scales": true,
-                    "duration": "00:05.15",
-                    "centerX": "381.38",
-                    "width": "490.12",
-                    "height": "51.16",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "26F78132-5CDA-AD58-1401-9D57750B8675",
-                    "databegin": "00:18.93"
-                },
-                {
-                    "centerY": "222.04",
-                    "dataend": "00:24.08",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"font-family: Quicksand;\"><span style=\"color: #000000; font-size: 30pt;\">Poich&egrave;&nbsp;va oltre&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 48px; font-size: 40px;\">la semplice</span></span></p>\n<p><span style=\"font-family: Quicksand;\"><span style=\"color: #000000; font-size: 30pt;\">progettazione&nbsp;</span><span class=\"Apple-style-span\" style=\"color: #000000; line-height: 48px; font-size: 40px;\">degli edifici</span></span></p>",
-                    "name": "Text 8",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 9,
-                    "scales": true,
-                    "duration": "00:04.60",
-                    "centerX": "337.34",
-                    "width": "539.13",
-                    "height": "98.72",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "662420CE-4D4D-4E3B-E029-9D59B88718BF",
-                    "databegin": "00:19.48"
-                },
-                {
-                    "centerY": "-79.27",
-                    "dataend": "00:29.84",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">Lo schema ippodameo ...</span></p>",
-                    "name": "Text 9",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 10,
-                    "scales": true,
-                    "duration": "00:05.43",
-                    "centerX": "-339.04",
-                    "width": "528.47",
-                    "height": "57.16",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "E516E671-4BD8-6A9C-1BD2-9D5CCF85C7FF",
-                    "databegin": "00:24.41"
-                },
-                {
-                    "centerY": "16.59",
-                    "dataend": "00:29.84",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">... sar&agrave; un modello&nbsp;per tutte</span></p>\n<p><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">le colonie della Magna Grecia</span></p>",
-                    "name": "Text 10",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 11,
-                    "scales": true,
-                    "duration": "00:05.02",
-                    "centerX": "-269.07",
-                    "width": "597.06",
-                    "height": "108.98",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "C75B10B6-5B32-A500-CF4F-9D5E083A13AA",
-                    "databegin": "00:24.82"
-                },
-                {
-                    "centerY": "-211.37",
-                    "dataend": "00:34.52",
-                    "type": "txt-Title-3",
-                    "text": "<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">E verr&agrave; ripreso anche</span></p>\n<p><span style=\"font-size: 30pt; color: #000000; font-family: Quicksand;\">da Dinocrate di Rodi</span></p>",
-                    "name": "Text 11",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 12,
-                    "scales": true,
-                    "duration": "00:04.05",
-                    "centerX": "-374.89",
-                    "width": "447.71",
-                    "height": "105.69",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "F8AC25C4-27B0-C5DB-2744-9D60E0A45736",
-                    "databegin": "00:30.47"
-                },
-                {
-                    "centerY": "28.70",
-                    "dataend": "00:34.52",
-                    "type": "txt-Title-3",
-                    "text": "<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">Per la progettazione&nbsp;della magnifica&nbsp;</span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000; font-size: 30pt; font-family: Quicksand;\">Alessandria d'Egitto</span></p>",
-                    "name": "Text 12",
-                    "transitionIn": {
-                        "type": "barWipe",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "zIndex": 13,
-                    "scales": true,
-                    "duration": "00:03.48",
-                    "centerX": "218.88",
-                    "width": "769.02",
-                    "height": "102.39",
-                    "style": {
-                        "backgroundColor": "rgba(255,255,255,0.4)"
-                    },
-                    "id": "B7453E44-636C-12CC-E6AB-9D622F209510",
-                    "databegin": "00:31.04"
-                }
-            ],
-            "shapes": [
-                {
-                    "centerY": "-171.45",
-                    "dataend": "00:29.84",
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "F52BB63D-7ADE-A3CF-4DA0-9DA7805C950C",
-                        "targetSequence": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(0,0,0,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "type": "default",
-                    "zIndex": 15,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "style": {
-                        "backgroundColor": "rgba(233,66,77,0.1)"
-                    },
-                    "scales": true,
-                    "duration": "00:04.64",
-                    "centerX": "227.95",
-                    "width": "82.00",
-                    "height": "24.23",
-                    "label": "taranto",
-                    "id": "08A71DF8-B1E0-B916-88FB-9D9F24E7FED5",
-                    "databegin": "00:25.20"
-                },
-                {
-                    "centerY": "-196.61",
-                    "dataend": "00:29.84",
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "3A21AC27-8DEF-0B16-434A-9DA7A2AA3F73",
-                        "targetSequence": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(0,0,0,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "type": "default",
-                    "zIndex": 16,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "rollOver": [
-                        {
-                            "reversible": true,
-                            "delay": 0,
-                            "type": "mediaAction",
-                            "name": "play",
-                            "target": "FB699F45-85D5-AD9D-4EE1-9D23ACC60214"
-                        }
-                    ],
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "style": {
-                        "backgroundColor": "rgba(233,66,77,0.1)"
-                    },
-                    "scales": true,
-                    "duration": "00:04.64",
-                    "centerX": "-46.00",
-                    "width": "74.55",
-                    "height": "26.09",
-                    "label": "napoli",
-                    "id": "F652A617-AC4D-269B-CC2B-9D9F2B9FD87C",
-                    "databegin": "00:25.20"
-                },
-                {
-                    "centerY": "278.61",
-                    "dataend": "00:29.84",
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "AAEA0616-7213-3F2A-560E-9DA8202C7B63",
-                        "targetSequence": "075E7926-3D3B-AB36-733D-8E7985CE9FB6",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(0,0,0,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "type": "default",
-                    "zIndex": 17,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "style": {
-                        "backgroundColor": "rgba(233,66,77,0.1)"
-                    },
-                    "scales": true,
-                    "duration": "00:04.64",
-                    "centerX": "91.91",
-                    "width": "134.18",
-                    "height": "27.95",
-                    "label": "megara iblea",
-                    "id": "ABAFF398-A1F4-7BD5-AE4B-9D9F3277364A",
-                    "databegin": "00:25.20"
-                }
-            ],
-            "id": "C62F4C80-1142-70B2-6C1E-9CE787C67A54",
-            "buttons": [
-                {
-                    "centerY": "-206.87",
-                    "dataend": "00:12.16",
-                    "type": "klynt-button-4",
-                    "zIndex": 4,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "62D0E911-1059-8992-C23E-9D15B4926D00",
-                        "targetSequence": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(240,120,24,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "scales": true,
-                    "duration": "00:06.43",
-                    "centerX": "-522.03",
-                    "width": "128.05",
-                    "height": "52.09",
-                    "label": "Scopri l'Acropoli",
-                    "id": "55DCA0F8-73A3-7A39-2C80-9D098257A2A7",
-                    "databegin": "00:05.73"
-                },
-                {
-                    "centerY": "33.95",
-                    "dataend": "00:12.71",
-                    "type": "klynt-button-4",
-                    "zIndex": 5,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "14EE29BE-62CB-5CE8-99A6-9D15E3B20EA8",
-                        "targetSequence": "0470597F-4614-D4C0-3022-9D128E895EF9",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(240,120,24,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "scales": true,
-                    "duration": "00:06.98",
-                    "centerX": "-524.67",
-                    "width": "126.40",
-                    "height": "48.79",
-                    "label": "Scopri l'Asty",
-                    "id": "B371BAFA-89C0-BDB9-78DE-9D0D034A8F62",
-                    "databegin": "00:05.73"
-                },
-                {
-                    "centerY": "260.95",
-                    "dataend": "00:13.11",
-                    "type": "klynt-button-4",
-                    "zIndex": 6,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "id": "EE0ECF5F-6C12-EF57-9674-9D160C2CAA0C",
-                        "targetSequence": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
-                        "closeButton": true,
-                        "automaticClose": false,
-                        "transition": "pop",
-                        "color": "rgba(240,120,24,1)",
-                        "closeButtonTop": 16,
-                        "closeButtonRight": 16,
-                        "automaticTransition": false,
-                        "pauseParent": true,
-                        "linkType": "linkToSequence",
-                        "overlay": true,
-                        "controlDX": 0
-                    },
-                    "scales": true,
-                    "duration": "00:07.38",
-                    "centerX": "-519.58",
-                    "width": "134.61",
-                    "height": "53.77",
-                    "label": "Scopri la Chorà",
-                    "id": "E1F6C51F-E6A8-4DA9-AE4D-9D0DC7C5E856",
-                    "databegin": "00:05.73"
-                },
-                {
-                    "right": "14.99",
-                    "dataend": "00:35.93",
-                    "type": "klynt-button-3",
-                    "zIndex": 14,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "link": {
-                        "hideInMindmap": false,
-                        "controlDY": 0,
-                        "hideArrowInMindmap": false,
-                        "automaticTransition": false,
-                        "controlDX": 0,
-                        "targetSequence": "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843",
-                        "linkType": "linkToSequence",
-                        "transition": "fade",
-                        "id": "51A71065-E0BA-4383-3653-9D9AE753393B",
-                        "color": "rgba(240,120,24,1)"
-                    },
-                    "bottom": "15.01",
-                    "scales": true,
-                    "duration": "00:35.93",
-                    "width": "85.01",
-                    "height": "44.00",
-                    "label": "Back",
-                    "id": "F1D3230C-9656-A399-EBFC-9D9A591C72EE",
-                    "databegin": "00:00.00"
-                }
-            ]
         }
     },
     "share": {
-        "horizontalWording": "Horizontal",
         "enableLinkedIn": true,
         "thumbnail": null,
         "enableTumblr": true,
         "customSizeWording": "Custom",
-        "playerWording": "Player",
+        "displayMiniPlayerWording": true,
         "miniPlayerWording": "Mini player",
         "removeViaKlynt": true,
-        "shortMessage": "",
-        "displayMiniPlayerWording": true,
+        "originalSizeWording": "Original",
+        "horizontalWording": "Horizontal",
         "shareSequenceWording": "Share sequence",
-        "linkWording": "Link",
+        "playerWording": "Player",
         "verticalWording": "Vertical",
         "socialNetworksWording": "Social Networks",
-        "originalSizeWording": "Original",
+        "shortMessage": "",
         "embedWording": "Embed",
+        "linkWording": "Link",
         "title": "",
         "message": "",
         "link": null,
         "enableGooglePlus": true
     },
     "wording": {
-        "your_are_here": "Vous êtes ici",
         "total_duration": "(durée totale : {0})",
+        "your_are_here": "Vous êtes ici",
         "total_sequences": "séquences au total",
         "program_percentage_viewed": "du programme vu",
         "keywords": "mots-clés"
     },
     "menu": {
+        "backgroundImage": null,
         "displayBackgroundImage": false,
+        "searchWidget": "6EF0BB72-93C0-0381-40E7-78F3C3F87B80",
+        "offset_sequence": 12,
         "widgets": [
             {
                 "type": "index",
@@ -9209,7 +7923,6 @@ klynt.data = {
                         "B946A618-7142-8493-4B0C-8E7B9BF5E592",
                         "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1",
                         "FD372935-188B-DF55-6453-8E7BABE1731A",
-                        "6927CCB6-34B8-0732-CA5D-8E7E1A9F5FFF",
                         "C62F4C80-1142-70B2-6C1E-9CE787C67A54",
                         "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
                         "0470597F-4614-D4C0-3022-9D128E895EF9",
@@ -9223,7 +7936,8 @@ klynt.data = {
                         "53175633-8263-8F37-6F82-3D9A47845F27",
                         "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC",
                         "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD",
-                        "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E"
+                        "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E",
+                        "0E999E58-1516-C6B9-70C1-474953C72365"
                     ]
                 },
                 "label": "Index",
@@ -9246,7 +7960,8 @@ klynt.data = {
                         "53175633-8263-8F37-6F82-3D9A47845F27",
                         "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC",
                         "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD",
-                        "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E"
+                        "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E",
+                        "0E999E58-1516-C6B9-70C1-474953C72365"
                     ],
                     "displayDescriptions": true,
                     "keyboardShortcuts": false,
@@ -9292,10 +8007,7 @@ klynt.data = {
                 "displayLinksArrow": true,
                 "smallSequenceSize": 25
             }
-        ],
-        "searchWidget": "6EF0BB72-93C0-0381-40E7-78F3C3F87B80",
-        "offset_sequence": 12,
-        "backgroundImage": null
+        ]
     },
     "general": {
         "width": 1366,
@@ -9307,7 +8019,7 @@ klynt.data = {
         "mapsKey": "",
         "title": "leonardo_e_la_città",
         "author": "nicobell",
-        "modificationDate": 1547380186176,
+        "modificationDate": 1547384279127,
         "overlayCloseButtonTop": 16,
         "primaryColor": 3355443,
         "editorVersionNumber": "3.5.007",
@@ -9322,5 +8034,75 @@ klynt.data = {
         "level": 4,
         "creationDate": 1543922499575,
         "keywords": null
+    },
+    "aliases": {
+        "aliasToId": {
+            "Atene": "10BC9413-5F6B-F19E-41B7-9D129AA08A57",
+            "Megara_Iblea": "075E7926-3D3B-AB36-733D-8E7985CE9FB6",
+            "Scelta_percorso": "F2EE2068-9907-BC2B-2375-83DAB62365F0",
+            "macchina_volante": "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD",
+            "Vita_e_opere": "B946A618-7142-8493-4B0C-8E7B9BF5E592",
+            "La_città_Contemporanea": "94872949-87C3-5F06-EB6E-8528F167F49A",
+            "L'antichità": "49EB144C-7E01-49DF-CFF0-8528A28BD875",
+            "Acropoli": "9B20A371-8B9D-51D7-7831-9D1287E1B1FD",
+            "Asty": "0470597F-4614-D4C0-3022-9D128E895EF9",
+            "La_città_ideale": "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1",
+            "Leo_in_FVG": "FD372935-188B-DF55-6453-8E7BABE1731A",
+            "Video_flussi": "0E999E58-1516-C6B9-70C1-474953C72365",
+            "Palmanova_google": "74C4CB16-62F4-4795-C4A4-37507601009F",
+            "Bio_video": "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F",
+            "Chora": "EE1F9369-3E65-60AF-EC58-9D1293E592F7",
+            "ermellino": "72206E33-DB46-10B3-E638-3D86269E8ECE",
+            "Leonardo_e_la_città": "60272FE2-9E3C-EF70-0A63-83E95AFF1F99",
+            "Ippodamo": "A1664808-B10A-FDF1-39F2-8E7998F0FC7C",
+            "La_città_Rinascimentale": "8A933EC8-9D7C-37BD-B8B1-852972D9DD65",
+            "la_figura_di_leonardo": "87E70905-ECC5-BBBA-661E-8D3EE0E023A2",
+            "gioconda": "40B5B941-DE22-8A52-1867-3D85F07EE17A",
+            "La_città_Romana": "60B0D847-A8A5-0E06-2FC6-8528EB355993",
+            "cena": "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2",
+            "gesù": "64A33728-D7F8-85AA-4409-3D8D15AB69B7",
+            "paracadute": "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E",
+            "calcolatrice": "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC",
+            "Taranto": "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8",
+            "La_città_greca": "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843",
+            "I_modelli_della_Storia": "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF",
+            "carro_armato": "53175633-8263-8F37-6F82-3D9A47845F27",
+            "Napoli": "550DB8E1-71A8-C3EF-E90E-8E79954C96D7",
+            "video_polis": "C62F4C80-1142-70B2-6C1E-9CE787C67A54"
+        },
+        "idToAlias": {
+            "8A933EC8-9D7C-37BD-B8B1-852972D9DD65": "La_città_Rinascimentale",
+            "0470597F-4614-D4C0-3022-9D128E895EF9": "Asty",
+            "74C4CB16-62F4-4795-C4A4-37507601009F": "Palmanova_google",
+            "559ABEFD-A5AB-2EEF-0529-3D9C2E96FCFC": "calcolatrice",
+            "F3C8F07F-CF64-02E7-7D4A-8E7BA55741F1": "La_città_ideale",
+            "FD372935-188B-DF55-6453-8E7BABE1731A": "Leo_in_FVG",
+            "EE1F9369-3E65-60AF-EC58-9D1293E592F7": "Chora",
+            "B946A618-7142-8493-4B0C-8E7B9BF5E592": "Vita_e_opere",
+            "0E999E58-1516-C6B9-70C1-474953C72365": "Video_flussi",
+            "64A33728-D7F8-85AA-4409-3D8D15AB69B7": "gesù",
+            "60272FE2-9E3C-EF70-0A63-83E95AFF1F99": "Leonardo_e_la_città",
+            "94872949-87C3-5F06-EB6E-8528F167F49A": "La_città_Contemporanea",
+            "53175633-8263-8F37-6F82-3D9A47845F27": "carro_armato",
+            "40B5B941-DE22-8A52-1867-3D85F07EE17A": "gioconda",
+            "BE58DF1C-0E6B-DE30-C052-3D9D534BBEAD": "macchina_volante",
+            "49EB144C-7E01-49DF-CFF0-8528A28BD875": "L'antichità",
+            "F2EE2068-9907-BC2B-2375-83DAB62365F0": "Scelta_percorso",
+            "10BC9413-5F6B-F19E-41B7-9D129AA08A57": "Atene",
+            "550DB8E1-71A8-C3EF-E90E-8E79954C96D7": "Napoli",
+            "075E7926-3D3B-AB36-733D-8E7985CE9FB6": "Megara_Iblea",
+            "C62F4C80-1142-70B2-6C1E-9CE787C67A54": "video_polis",
+            "3A5F8A0E-D2D0-9088-4138-8E79905C9EF8": "Taranto",
+            "1D54C1DC-62F5-B1BD-3E38-3D9D557E640E": "paracadute",
+            "16E48FAB-8C6F-84DE-00FA-3D0E308F16D2": "cena",
+            "60B0D847-A8A5-0E06-2FC6-8528EB355993": "La_città_Romana",
+            "E38EF7C2-E494-DD2C-B610-84BD0A1DAFAF": "I_modelli_della_Storia",
+            "87E70905-ECC5-BBBA-661E-8D3EE0E023A2": "la_figura_di_leonardo",
+            "9B20A371-8B9D-51D7-7831-9D1287E1B1FD": "Acropoli",
+            "A1664808-B10A-FDF1-39F2-8E7998F0FC7C": "Ippodamo",
+            "72206E33-DB46-10B3-E638-3D86269E8ECE": "ermellino",
+            "CA37EC9E-0F12-9742-2D67-84D0D57E3C4F": "Bio_video",
+            "24E78D1E-0FDA-4C9A-DA27-8528AA4B4843": "La_città_greca"
+        }
     }
 }

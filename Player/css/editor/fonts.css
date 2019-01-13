@@ -183,15 +183,6 @@
 }
 
 @font-face {
-	font-family: Dancing Script;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/DancingScript-Regular.eot');
-	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/DancingScript-Regular.ttf') format('truetype');
-}
-
-@font-face {
 	font-family: Crimson Text;
 	font-weight: roman;
 	font-style: normal;
@@ -207,6 +198,15 @@
 	src: url('fonts/DancingScript-Bold.eot');
 	src: url('fonts/DancingScript-Bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/DancingScript-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Dancing Script;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/DancingScript-Regular.eot');
+	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/DancingScript-Regular.ttf') format('truetype');
 }
 
 @font-face {
