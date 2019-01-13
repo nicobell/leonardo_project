@@ -7,9 +7,9 @@ klynt.miniPlayerData = {
     "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
     "noWording": "No",
     "analyticsKey": "",
-    "redirectToMobileApp": "never",
     "launchAppWording": "Then Launch Project",
     "downloadAppWording": "Download App",
     "url": "",
+    "redirectToMobileApp": "never",
     "description": ""
 }
