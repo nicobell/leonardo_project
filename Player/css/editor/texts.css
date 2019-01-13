@@ -9,14 +9,14 @@
 }
 
 .txt-Title-1 {
-	font-family: Simonetta;
-	font-style: italic;
+	font-family: Stardos Stencil;
+	font-style: normal;
 	font-size: 44px;
 	color: rgba(255,204,0,1);
 	text-align: left;
 	padding: 2px;
 	line-height: 1.2;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .txt-Title-2 {
@@ -31,7 +31,7 @@
 }
 
 .txt-Title-3 {
-	font-family: Simonetta;
+	font-family: Lato;
 	font-style: normal;
 	font-size: 28px;
 	color: rgba(255,255,255,1);
