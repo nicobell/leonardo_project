@@ -18,7 +18,7 @@ body {font: 14px 'Open Sans', sans-serif;} /* MAIN_FONT */
 }
 
 .vertical.miniplayer-button{
-	background: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	background: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 	background-size: 25% 25%;
 }
 
@@ -45,7 +45,7 @@ body {font: 14px 'Open Sans', sans-serif;} /* MAIN_FONT */
 }
 
 .vertical.miniplayer-return-buttons > div.yes {
-	background-color: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	background-color: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 }
 
 .horizontal.miniplayer-info-content{
@@ -59,7 +59,7 @@ body {font: 14px 'Open Sans', sans-serif;} /* MAIN_FONT */
 }
 
 .horizontal.miniplayer-button{
-	background: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	background: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 	background-size: 25% 25%;
 }
 
@@ -73,7 +73,7 @@ body {font: 14px 'Open Sans', sans-serif;} /* MAIN_FONT */
 }
 
 .horizontal.miniplayer-return-buttons > div.yes {
-	background-color: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	background-color: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 }
 
 .mobile-miniplayer-button {

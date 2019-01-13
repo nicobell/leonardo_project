@@ -19,13 +19,13 @@ body {
 }
 
 .loader-stroke-color-empty {
-	stroke: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	stroke: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 }
 
 .loader-stroke-color-filled {
-	stroke: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	stroke: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 }
 
 .loader-label {
-	color: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	color: rgba(255, 204, 51, 1); /* TERTIARY_COLOR */
 }

@@ -1,5 +1,4 @@
 klynt.miniPlayerData = {
-    "downloadAppWording": "Download App",
     "thanksForWatchingWording": "Thanks for watching!",
     "resumePlaybackWording": "Resume playback?",
     "fullscreenInfoWording": "This program will launch in fullscreen",
@@ -9,7 +8,8 @@ klynt.miniPlayerData = {
     "noWording": "No",
     "analyticsKey": "",
     "redirectToMobileApp": "never",
-    "url": "",
     "launchAppWording": "Then Launch Project",
+    "downloadAppWording": "Download App",
+    "url": "",
     "description": ""
 }
