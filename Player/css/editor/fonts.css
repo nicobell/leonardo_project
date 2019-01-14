@@ -211,20 +211,20 @@
 
 @font-face {
 	font-family: Lato;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Lato-Italic.eot');
-	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Lato-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lato;
 	font-weight: bold;
 	font-style: normal;
 	src: url('fonts/Lato-Bold.eot');
 	src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/Lato-Italic.eot');
+	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Lato-Italic.ttf') format('truetype');
 }
 
 @font-face {
@@ -248,19 +248,19 @@
 @font-face {
 	font-family: Lobster Two;
 	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/LobsterTwo-Regular.eot');
-	src: url('fonts/LobsterTwo-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Regular.ttf') format('truetype');
+	font-style: italic;
+	src: url('fonts/LobsterTwo-Italic.eot');
+	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: Lobster Two;
 	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/LobsterTwo-Italic.eot');
-	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
+	font-style: normal;
+	src: url('fonts/LobsterTwo-Regular.eot');
+	src: url('fonts/LobsterTwo-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Regular.ttf') format('truetype');
 }
 
 @font-face {
