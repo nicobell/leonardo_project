@@ -4,12 +4,12 @@ klynt.miniPlayerData = {
     "fullscreenInfoWording": "This program will launch in fullscreen",
     "yesWording": "Yes",
     "title": "leonardo_e_la_città",
-    "thumbnail": "Medias/Thumbnails/leonardo_sfondo.jpg.jpg",
+    "thumbnail": "Player/css/editor/img/mini-player.jpg",
     "noWording": "No",
     "analyticsKey": "",
-    "redirectToMobileApp": "never",
     "downloadAppWording": "Download App",
-    "url": "",
     "launchAppWording": "Then Launch Project",
+    "url": "",
+    "redirectToMobileApp": "never",
     "description": ""
 }
