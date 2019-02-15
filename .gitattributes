@@ -4,3 +4,4 @@ Medias/Videos/citta_greca.mp4 filter=lfs diff=lfs merge=lfs -text
 Medias/Videos/vita_leonardo.mp4 filter=lfs diff=lfs merge=lfs -text
 Medias/Videos/citta_romana.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+Medias/Videos/video_moderna.mp4 filter=lfs diff=lfs merge=lfs -text
