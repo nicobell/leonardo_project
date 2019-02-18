@@ -221,15 +221,6 @@
 @font-face {
 	font-family: Lato;
 	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Lato-Regular.eot');
-	src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Lato-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lato;
-	font-weight: normal;
 	font-style: italic;
 	src: url('fonts/Lato-Italic.eot');
 	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
@@ -237,30 +228,21 @@
 }
 
 @font-face {
-	font-family: Simonetta;
-	font-weight: black;
+	font-family: Lato;
+	font-weight: normal;
 	font-style: normal;
-	src: url('fonts/Simonetta-Black.eot');
-	src: url('fonts/Simonetta-Black.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Simonetta-Black.ttf') format('truetype');
+	src: url('fonts/Lato-Regular.eot');
+	src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: Simonetta;
-	font-weight: normal;
+	font-family: Lobster Two;
+	font-weight: bold;
 	font-style: normal;
-	src: url('fonts/Simonetta-Regular.eot');
-	src: url('fonts/Simonetta-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Simonetta-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Simonetta;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Simonetta-Italic.eot');
-	src: url('fonts/Simonetta-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Simonetta-Italic.ttf') format('truetype');
+	src: url('fonts/LobsterTwo-Bold.eot');
+	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -282,11 +264,29 @@
 }
 
 @font-face {
-	font-family: Lobster Two;
-	font-weight: bold;
+	font-family: Simonetta;
+	font-weight: black;
 	font-style: normal;
-	src: url('fonts/LobsterTwo-Bold.eot');
-	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
+	src: url('fonts/Simonetta-Black.eot');
+	src: url('fonts/Simonetta-Black.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Simonetta-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Simonetta;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/Simonetta-Italic.eot');
+	src: url('fonts/Simonetta-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Simonetta-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Simonetta;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/Simonetta-Regular.eot');
+	src: url('fonts/Simonetta-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Simonetta-Regular.ttf') format('truetype');
 }
 
