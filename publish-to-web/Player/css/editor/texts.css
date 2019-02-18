@@ -9,9 +9,9 @@
 }
 
 .txt-Title-1 {
-	font-family: Stardos Stencil;
+	font-family: Quicksand;
 	font-style: normal;
-	font-size: 44px;
+	font-size: 40px;
 	color: rgba(255,204,0,1);
 	text-align: left;
 	padding: 2px;
@@ -24,7 +24,7 @@
 	font-style: normal;
 	font-size: 36px;
 	color: rgba(0,0,0,1);
-	text-align: left;
+	text-align: center;
 	padding: 2px;
 	line-height: 1.2;
 	font-weight: normal;
