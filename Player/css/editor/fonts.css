@@ -183,15 +183,6 @@
 }
 
 @font-face {
-	font-family: Crimson Text;
-	font-weight: roman;
-	font-style: normal;
-	src: url('fonts/CrimsonText-Roman.eot');
-	src: url('fonts/CrimsonText-Roman.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/CrimsonText-Roman.ttf') format('truetype');
-}
-
-@font-face {
 	font-family: Dancing Script;
 	font-weight: bold;
 	font-style: normal;
@@ -201,12 +192,12 @@
 }
 
 @font-face {
-	font-family: Lato;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Lato-Italic.eot');
-	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Lato-Italic.ttf') format('truetype');
+	font-family: Crimson Text;
+	font-weight: roman;
+	font-style: normal;
+	src: url('fonts/CrimsonText-Roman.eot');
+	src: url('fonts/CrimsonText-Roman.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/CrimsonText-Roman.ttf') format('truetype');
 }
 
 @font-face {
@@ -225,6 +216,15 @@
 	src: url('fonts/Lato-Bold.eot');
 	src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/Lato-Italic.eot');
+	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Lato-Italic.ttf') format('truetype');
 }
 
 @font-face {
