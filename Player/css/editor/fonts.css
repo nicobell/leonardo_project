@@ -175,24 +175,6 @@
 
 @font-face {
 	font-family: Crimson Text;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/CrimsonText-Italic.eot');
-	src: url('fonts/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/CrimsonText-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Dancing Script;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/DancingScript-Regular.eot');
-	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/DancingScript-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Crimson Text;
 	font-weight: roman;
 	font-style: normal;
 	src: url('fonts/CrimsonText-Roman.eot');
@@ -207,6 +189,24 @@
 	src: url('fonts/DancingScript-Bold.eot');
 	src: url('fonts/DancingScript-Bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/DancingScript-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Dancing Script;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/DancingScript-Regular.eot');
+	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/DancingScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Crimson Text;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/CrimsonText-Italic.eot');
+	src: url('fonts/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/CrimsonText-Italic.ttf') format('truetype');
 }
 
 @font-face {
@@ -237,6 +237,42 @@
 }
 
 @font-face {
+	font-family: Simonetta;
+	font-weight: black;
+	font-style: normal;
+	src: url('fonts/Simonetta-Black.eot');
+	src: url('fonts/Simonetta-Black.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Simonetta-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Simonetta;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/Simonetta-Italic.eot');
+	src: url('fonts/Simonetta-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Simonetta-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Simonetta;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/Simonetta-Regular.eot');
+	src: url('fonts/Simonetta-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Simonetta-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lobster Two;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/LobsterTwo-Italic.eot');
+	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: Lobster Two;
 	font-weight: normal;
 	font-style: normal;
@@ -252,41 +288,5 @@
 	src: url('fonts/LobsterTwo-Bold.eot');
 	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lobster Two;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/LobsterTwo-Italic.eot');
-	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Simonetta;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Simonetta-Italic.eot');
-	src: url('fonts/Simonetta-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Simonetta-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Simonetta;
-	font-weight: black;
-	font-style: normal;
-	src: url('fonts/Simonetta-Black.eot');
-	src: url('fonts/Simonetta-Black.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Simonetta-Black.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Simonetta;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Simonetta-Regular.eot');
-	src: url('fonts/Simonetta-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Simonetta-Regular.ttf') format('truetype');
 }
 
