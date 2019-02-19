@@ -175,6 +175,15 @@
 
 @font-face {
 	font-family: Crimson Text;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/CrimsonText-Italic.eot');
+	src: url('fonts/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/CrimsonText-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Crimson Text;
 	font-weight: roman;
 	font-style: normal;
 	src: url('fonts/CrimsonText-Roman.eot');
@@ -201,21 +210,21 @@
 }
 
 @font-face {
-	font-family: Crimson Text;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/CrimsonText-Italic.eot');
-	src: url('fonts/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/CrimsonText-Italic.ttf') format('truetype');
-}
-
-@font-face {
 	font-family: Lato;
 	font-weight: bold;
 	font-style: normal;
 	src: url('fonts/Lato-Bold.eot');
 	src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/Lato-Italic.eot');
+	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Lato-Italic.ttf') format('truetype');
 }
 
 @font-face {
@@ -228,12 +237,30 @@
 }
 
 @font-face {
-	font-family: Lato;
+	font-family: Lobster Two;
+	font-weight: bold;
+	font-style: normal;
+	src: url('fonts/LobsterTwo-Bold.eot');
+	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lobster Two;
 	font-weight: normal;
 	font-style: italic;
-	src: url('fonts/Lato-Italic.eot');
-	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Lato-Italic.ttf') format('truetype');
+	src: url('fonts/LobsterTwo-Italic.eot');
+	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lobster Two;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/LobsterTwo-Regular.eot');
+	src: url('fonts/LobsterTwo-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -261,32 +288,5 @@
 	src: url('fonts/Simonetta-Regular.eot');
 	src: url('fonts/Simonetta-Regular.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/Simonetta-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lobster Two;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/LobsterTwo-Italic.eot');
-	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lobster Two;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/LobsterTwo-Regular.eot');
-	src: url('fonts/LobsterTwo-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lobster Two;
-	font-weight: bold;
-	font-style: normal;
-	src: url('fonts/LobsterTwo-Bold.eot');
-	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
 }
 
